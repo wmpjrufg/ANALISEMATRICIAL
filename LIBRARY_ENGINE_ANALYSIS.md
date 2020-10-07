@@ -15,6 +15,6 @@
 A seguir são listadas as bibliotecas que compõem o programa:
 1. [Funcionamento Geral](https://github.com/wmpjrufg/ANALISEMATRICIAL/blob/gh-pages/LIBRARY_WORKFLOW.html)
 2. [Graus de Liberdade](https://github.com/wmpjrufg/ANALISEMATRICIAL/blob/gh-pages/LIBRARY_WORKFLOW.html)
-3. [Matrix de Rigidez](https://github.com/wmpjrufg/ANALISEMATRICIAL/blob/gh-pages/LIBRARY_WORKFLOW.html)
+3. [Matrix de Rigidez](https://github.com/wmpjrufg/ANALISEMATRICIAL/blob/gh-pages/LIBRARY_MATRIX_ELEMENTS.html)
 3. [Carregamento Equivalente](https://github.com/wmpjrufg/ANALISEMATRICIAL/blob/gh-pages/LIBRARY_WORKFLOW.html)
 4. [Resultados](https://github.com/wmpjrufg/ANALISEMATRICIAL/blob/gh-pages/LIBRARY_WORKFLOW.html)
