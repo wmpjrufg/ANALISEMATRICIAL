@@ -5,6 +5,15 @@
 
 ## Função deslocamento
 
+$$\sum{F_y }= 0: V-(V+dV)-w(x)dx=-wdx - dV = 0 \   or \ w=-\frac{dV}{dx}$$
+
+$$\sum{M_2}=0: -Vdx+dM+w(x)dx\frac{dx}{2}=0 \ or \ V=\frac{dM}{dx}$$
+$$\kappa = \frac{1}{\rho }=\frac{M}{EI}$$
+$$\kappa = \frac{d^2v}{dx^2 }$$
+$$\frac{d^2}{dx^2}[EI\frac{d^2v}{dx^2}]=-w(x)$$
+$$EI\frac{d^4v}{dx^4}$$
+
+
 $$
 (1)\nu(x)=a_{1}x^3+a_{2}x^2+a_{3}x+a_{4}
 $$
@@ -17,7 +26,7 @@ $$\nu(L)=v_{2}=a_{1}L^3+a_{2}L^2+a_{3}L+a_{4}$$
 
 $$\frac{d\nu(L)}{dx} = \phi_{2}= 3a_{1}L^2+2a_{1}L+a_{3} $$
 
-$$\nu=\frac{2}{L^3}(\nu_{1}-\nu_{2})+\frac{1}{L^2}(\phi_{1}-\phi_{2})x^3-\frac{3}{L^2}(\nu_{1}-\nu_{2})-\nu_{2})-\frac{1}{L}(2\phi_{1}-\phi_{2})x^2+\phi_1x+\nu_1$$
+$$\nu=\frac{2}{L^3}(\nu_{1}-\nu_{2})+\frac{1}{L^2}(\phi_{1}-\phi_{2})x^3-\frac{3}{L^2}(\nu_{1}-\nu_{2})-\frac{1}{L}(2\phi_{1}-\phi_{2})x^2+\phi_1x+\nu_1$$
 
 $$\nu = [N*\{d\}$$
 
