@@ -7,9 +7,7 @@ A seguinte matriz de rigidez é baseada na teoria de vigas de Euler-Bernoulli. O
 Sendo uma viga submetida a uma carga distribuída w(x), das equações de equilíbrio se obtém [\ref{eq1}.]
 
 $$
-\begin{equation}
-    g &= \int_a^b f(x)dx \label{eq1} \\
-\end{equation}
+g &= \int_a^b f(x)dx \label{eq1} 
 $$
 
 $$\sum{F_y }= 0: V-(V+dV)-w(x)dx=0 $$
