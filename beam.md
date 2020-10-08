@@ -4,18 +4,31 @@
 # Matriz de rigidez Viga
 
 A seguinte matriz de rigidez é baseada na teoria de vigas de Euler-Bernoulli. Onde é considerado que as seções perpendiculares ao eixo longitudinal permanecem planas após a aplicação de cargas.
-Sendo uma viga submetida a uma carga distribuída w(x), das equações de equilíbrio se obtém [\ref{eq1}.]
+Sendo uma viga submetida a uma carga distribuída w(x), das equações de equilíbrio se obtém eq.1.
 
+$$(1)     \sum{F_y }= 0: V-(V+dV)-w(x)dx=0 \label$$
 
-$$\sum{F_y }= 0: V-(V+dV)-w(x)dx=0 \label{eq1} $$
+Simplifando a Eq. 1, obtém-se eq. 2 e 3.
 
-$$-wdx - dV = 0 \   or \ w=-\frac{dV}{dx}$$
+$$(2)     -wdx - dV = 0 \   or \ w=-\frac{dV}{dx}$$
 
-$$\sum{M_2}=0: -Vdx+dM+w(x)dx\frac{dx}{2}=0 \ or \ V=\frac{dM}{dx}$$
-$$\kappa = \frac{1}{\rho }=\frac{M}{EI}$$
-$$\kappa = \frac{d^2v}{dx^2 }$$
-$$\frac{d^2}{dx^2}[EI\frac{d^2v}{dx^2}]=-w(x)$$
-$$EI\frac{d^4v}{dx^4}$$
+$$(3)     \sum{M_2}=0: -Vdx+dM+w(x)dx\frac{dx}{2}=0 \ or \ V=\frac{dM}{dx}$$
+
+A curvatura das vigas pode ser obtida por meio da eq. 4.
+
+$$(4)     \kappa = \frac{1}{\rho }=\frac{M}{EI}$$
+
+Equanto a curvatura para pequenas rotações $$\phi - \frac{dv}{dx}$$ é dada pela eq. 5.
+
+$$(5)     \kappa = \frac{d^2v}{dx^2 }$$
+
+Substituindo as eq's. 2 e 3 na eq. 5:
+
+$$(6)     \frac{d^2}{dx^2}[EI\frac{d^2v}{dx^2}]=-w(x)$$
+
+Para um módulo de rigidez longitudinal (EI) constante, e com atuação de apenas forças e momentos, a eq. 6 se torna eq. 7.
+
+$$(7)     EI\frac{d^4v}{dx^4}$$
 
 
 $$
