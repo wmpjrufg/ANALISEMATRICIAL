@@ -7,13 +7,7 @@
 A seguinte matriz de rigidez é baseada na teoria de vigas de Euler-Bernoulli. Onde é considerado que as seções perpendiculares ao eixo longitudinal permanecem planas após a aplicação de cargas.
 Sendo uma viga submetida a uma carga distribuída w(x), das equações de equilíbrio se obtém eq.1.
 
-</div>
-
-
-
-$$<div style="text-align: right">
-     (1) \ \ \     \sum{F_y }= 0: V-(V+dV)-w(x)dx=0 \label{1}
-</div>$$
+$$(1) \ \ \     \sum{F_y }= 0: V-(V+dV)-w(x)dx=0 \label{1}$$
 
 
 
@@ -136,3 +130,4 @@ $$
 \end{bmatrix}
 $$
      
+</div>
