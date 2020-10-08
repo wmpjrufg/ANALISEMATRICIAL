@@ -55,7 +55,8 @@ $$(18) \ \ \  N_2 = \frac{1}{L^3}(x^3L-2x^2L^2+xL^3)$$
 $$(19) \ \ \  N_3 = \frac{1}{L^3}(-2x^3+3x^2L)$$
 $$(20) \ \ \  N_4 = \frac{1}{L^3}(x^3L-x^2L^2)$$
 
-Sendo a relação entre deformações e deslocamento representado pela eq. 21 e entre o deslocamento axial (u) e transversal $$(\nu)$$ expresso pela eq. 22.<p style="text-align: justify;"> </p>
+Sendo a relação entre deformações e deslocamento representado pela eq. 21 e entre o deslocamento axial (u) e transversal $$(\nu)$$ expresso pela eq. 22.
+<p style="text-align: justify;"> </p>
 $$(21) \ \ \  \varepsilon_x(x,y) = \frac{du}{dx}\\$$
 $$(22) \ \ \  u = -y\frac{d\nu}{dx}\\$$
 
