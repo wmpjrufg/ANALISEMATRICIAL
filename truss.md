@@ -146,3 +146,16 @@ $$
 2. <p style="text-align: justify;">ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS (ABNT). NBR 6118 Projeto de Estruturas de Concreto - Procedimento, Rio de Janeiro, 2014.</p>
 
 3. <p style="text-align: justify;">CARVALHO, R. C. FIGUEIREDO FILHO, J R. Cálculo e Detalhamento de Estruturas Usuais de Concreto Armado: Segundo a NBR 6118:2014. Editora EduFSCar, 4º edição, São Carlos, 2014.</p>
+
+
+
+
+
+$$
+\begin{aligned}
+\delta^L &= \nabla_{a^L}C \odot \sigma'(z^L) & (1) \\[0.7em]
+\delta^l &= (w^{l+1})^T \delta^{l+1} \odot \sigma'(z^l) & (2) \\[0.7em]
+\frac{\partial C }{\partial b_j^l}  &= \delta^l_j & (3) \\[0.7em]
+\frac{\partial C }{\partial w_{kj}^l} &= \delta_k^l a_j^{l-1} & (4)
+\end{aligned}
+$$
