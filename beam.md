@@ -48,9 +48,11 @@ Resolvendo as eq's. 9 a 12 em função dos parâmetros de forma $$a_1 ... a_4$$ 
 
 $$(13) \ \ \        \nu=\frac{2}{L^3}(\nu_{1}-\nu_{2})+\frac{1}{L^2}(\phi_{1}-\phi_{2})x^3-\frac{3}{L^2}(\nu_{1}-\nu_{2})-\frac{1}{L}(2\phi_{1}-\phi_{2})x^2+\phi_1x+\nu_1$$
 
-$$\nu = [N*\{d\}$$
+Transformando as expressões para as formas matriciais descritas nas eq's 14 a 16, é possível obter as funções de forma $$N_1 ... N_4$$ para o elemento viga eq's. 17 a 20.
 
-$$
+$$(14) \ \ \        \nu = [N*\{d\}$$
+
+$$(15) \ \ \        
 \{d\}=\begin{Bmatrix}
 \nu_1\\
 \phi_1\\
@@ -59,7 +61,7 @@ $$
 \end{Bmatrix}
 $$
 
-$$[N*=[N_1 \ N_2 \ N_3 \ N_4* $$
+$$(16) \ \ \  [N*=[N_1 \ N_2 \ N_3 \ N_4* $$
 
 
 $$N_1 = \frac{1}{L^3}(2x^3-3x^2L+L^3)$$
