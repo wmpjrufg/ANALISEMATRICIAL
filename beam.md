@@ -9,8 +9,6 @@ Sendo uma viga submetida a uma carga distribuída w(x), das equações de equil�
 
 $$(1) \ \ \     \sum{F_y }= 0: V-(V+dV)-w(x)dx=0 \label{1}$$
 
-
-
 Simplificando a Eq. 1, obtém-se eq. 2 e 3.
 
 $$(2) \ \ \      -wdx - dV = 0 \   or \ w=-\frac{dV}{dx}$$
@@ -125,7 +123,8 @@ m_1\\
 \end{Bmatrix}
 $$
 
-$$
+Onde a matriz de rigidez do elemento viga é expresso pela eq. 31
+$$(30) \ \ \  
 [k*=\frac{EI}{L^3}\begin{bmatrix}
 12 & 6L&-12&6L\\
 6L&4L^2&-6L&2L^2\\
