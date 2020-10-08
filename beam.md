@@ -103,7 +103,6 @@ $$(29) \ \ \  f_{2y}=V=EI\frac{d^3\nu(L)}{dx^3}=\frac{EI}{L^3}(-12\nu_1-6L\phi_1
 $$(30) \ \ \  m_{2}=-m=-EI\frac{d^2\nu(L)}{dx^2}=\frac{EI}{L^3}(6L\nu_1+2L^2\phi_1-6L\nu_2+4L^2\phi_2)$$
 
 <p style="text-align: justify;">Por meio das eq's. 27 a 30 é possível obter a forma matricial dos deslocamentos globais (eq. 31).</p>
-
 $$(30) \ \ \  
 \begin{Bmatrix}
 f_{1y}\\
