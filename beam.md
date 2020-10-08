@@ -32,12 +32,12 @@ $$
 
 $$[N*=[N_1 \ N_2 \ N_3 \ N_4* $$
 
-$$
-N_1 = \frac{1}{L^3}(2x^3-3x^2L+L^3)\\
-N_2 = \frac{1}{L^3}(x^3L-2x^2L^2+xL^3)\\
-N_3 = \frac{1}{L^3}(-2x^3+3x^2L)\\
-N_4 = \frac{1}{L^3}(x^3L-x^2L^2)\\
-$$
+
+$$N_1 = \frac{1}{L^3}(2x^3-3x^2L+L^3)\\$$
+$$N_2 = \frac{1}{L^3}(x^3L-2x^2L^2+xL^3)\\$$
+$$N_3 = \frac{1}{L^3}(-2x^3+3x^2L)\\$$
+$$N_4 = \frac{1}{L^3}(x^3L-x^2L^2)\\$$
+
 
 $$u = -y\frac{d\nu}{dx}\\$$
 
@@ -48,12 +48,12 @@ $$\sigma_x = \frac{-My}{I}\\$$
 $$m(x)=EI\frac{d^2\nu}{dx^2}\\$$
 $$V = EI\frac{d^3\nu}{dx^3}\\$$
 
-$$
-f_{1y}=V=EI\frac{d^3\nu(0)}{dx^3}=\frac{EI}{L^3}(12\nu_1+6L\phi_1-12\nu_2+6L\phi_2)\\
-m_{1}=-m=-EI\frac{d^2\nu(0)}{dx^2}=\frac{EI}{L^3}(6L\nu_1+4L^2\phi_1-6L\nu_2+2L^2\phi_2)\\
-f_{2y}=V=EI\frac{d^3\nu(L)}{dx^3}=\frac{EI}{L^3}(-12\nu_1-6L\phi_1+12\nu_2-6L\phi_2)\\
-m_{2}=-m=-EI\frac{d^2\nu(L)}{dx^2}=\frac{EI}{L^3}(6L\nu_1+2L^2\phi_1-6L\nu_2+4L^2\phi_2)\\
-$$
+
+$$f_{1y}=V=EI\frac{d^3\nu(0)}{dx^3}=\frac{EI}{L^3}(12\nu_1+6L\phi_1-12\nu_2+6L\phi_2)\\$$
+$$m_{1}=-m=-EI\frac{d^2\nu(0)}{dx^2}=\frac{EI}{L^3}(6L\nu_1+4L^2\phi_1-6L\nu_2+2L^2\phi_2)\\$$
+$$f_{2y}=V=EI\frac{d^3\nu(L)}{dx^3}=\frac{EI}{L^3}(-12\nu_1-6L\phi_1+12\nu_2-6L\phi_2)\\$$
+$$m_{2}=-m=-EI\frac{d^2\nu(L)}{dx^2}=\frac{EI}{L^3}(6L\nu_1+2L^2\phi_1-6L\nu_2+4L^2\phi_2)\\$$
+
 
 $$
 \begin{Bmatrix}
