@@ -34,7 +34,7 @@ $$(7) \ \ \      EI\frac{d^4v}{dx^4}$$
 
 $$(8) \ \ \   \nu(x)=a_{1}x^3+a_{2}x^2+a_{3}x+a_{4}$$
 
-<p style="text-align: justify;">Representando a eq. 8 em função dos graus de liberdade $$\nu_1, \phi_1, \nu_2, \phi_2$$ se obtém eq's. 9 a 12.</p>
+Representando a eq. 8 em função dos graus de liberdade $$\nu_1, \phi_1, \nu_2, \phi_2$$ se obtém eq's. 9 a 12.
 
 $$(9) \ \ \      \nu(0)=v_{1}=a_{4}$$
 
@@ -44,11 +44,11 @@ $$(11) \ \ \      \nu(L)=v_{2}=a_{1}L^3+a_{2}L^2+a_{3}L+a_{4}$$
 
 $$(12) \ \ \      \frac{d\nu(L)}{dx} = \phi_{2}= 3a_{1}L^2+2a_{1}L+a_{3} $$
 
-<p style="text-align: justify;">Resolvendo as eq's. 9 a 12 em função dos parâmetros de forma $$a_1 ... a_4$$ e substituindo na eq. 8:</p>
+Resolvendo as eq's. 9 a 12 em função dos parâmetros de forma $$a_1 ... a_4$$ e substituindo na eq. 8:
 
 $$(13) \ \ \        \nu=\frac{2}{L^3}(\nu_{1}-\nu_{2})+\frac{1}{L^2}(\phi_{1}-\phi_{2})x^3-\frac{3}{L^2}(\nu_{1}-\nu_{2})-\frac{1}{L}(2\phi_{1}-\phi_{2})x^2+\phi_1x+\nu_1$$
 
-<p style="text-align: justify;">Transformando as expressões para as formas matriciais descritas nas eq's 14 a 16, é possível obter as funções de forma $$N_1 ... N_4$$ para o elemento viga eq's. 17 a 20.</p>
+Transformando as expressões para as formas matriciais descritas nas eq's 14 a 16, é possível obter as funções de forma $$N_1 ... N_4$$ para o elemento viga eq's. 17 a 20.
 
 $$(14) \ \ \        \nu = [N*\{d\}$$
 
@@ -72,7 +72,7 @@ $$(19) \ \ \  N_3 = \frac{1}{L^3}(-2x^3+3x^2L)$$
 
 $$(20) \ \ \  N_4 = \frac{1}{L^3}(x^3L-x^2L^2)$$
 
-<p style="text-align: justify;">Sendo a relação entre deformações e deslocamento representado pela eq. 21 e entre o deslocamento axial (u) e transversal $$(\nu)$$ expresso pela eq. 22.</p>
+Sendo a relação entre deformações e deslocamento representado pela eq. 21 e entre o deslocamento axial (u) e transversal $$(\nu)$$ expresso pela eq. 22.
 
 $$(21) \ \ \  \varepsilon_x(x,y) = \frac{du}{dx}\\$$
 
@@ -89,6 +89,7 @@ $$(24) \ \ \  \sigma_x = \frac{-My}{I}\\$$
 <p style="text-align: justify;">A relação do momento fletor e esforço cortante com os deslocamentos pode ser expressa pelas eq's. 25 e 26.</p>
 
 $$(25) \ \ \  m(x)=EI\frac{d^2\nu}{dx^2}\\$$
+
 $$(26) \ \ \  V = EI\frac{d^3\nu}{dx^3}\\$$
 
 <p style="text-align: justify;">Substituindo a equação de deslocamento eq. 13 nas eq's. 25 e 26, obtém-se os momentos fletores e esforços cortantes nos nós da viga (eq's. 27 a 30).</p>
