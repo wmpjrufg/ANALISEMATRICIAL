@@ -8,8 +8,9 @@ Sendo uma viga submetida a uma carga distribuída w(x), das equações de equil�
 $$(1) \ \ \     \sum{F_y }= 0: V-(V+dV)-w(x)dx=0 \label{1}$$
 
 <p style="text-align: justify;">Simplificando a Eq. 1, obtém-se eq. 2 e 3.</p>
-$$(2) \ \ \      -wdx - dV = 0 \   or \ w=-\frac{dV}{dx}$$
-$$(3) \ \ \      \sum{M_2}=0: -Vdx+dM+w(x)dx\frac{dx}{2}=0 \ ou \ V=\frac{dM}{dx}$$
+$$(2) \ \ \      -wdx - dV = 0 \   or \ w=-\frac{dV}{dx}$$<br/>
+
+$$(3) \ \ \      \sum{M_2}=0: -Vdx+dM+w(x)dx\frac{dx}{2}=0 \ ou \ V=\frac{dM}{dx}$$<br/>
 
 <p style="text-align: justify;">A curvatura das vigas pode ser obtida por meio da eq. 4.</p>
 $$(4) \ \ \      \kappa = \frac{1}{\rho }=\frac{M}{EI}$$
@@ -29,10 +30,13 @@ $$(8) \ \ \   \nu(x)=a_{1}x^3+a_{2}x^2+a_{3}x+a_{4}$$
 
 Representando a eq. 8 em função dos graus de liberdade $$\nu_1, \phi_1, \nu_2, \phi_2$$ se obtém eq's. 9 a 12.
 <p style="text-align: justify;"> </p>
-$$(9) \ \ \      \nu(0)=v_{1}=a_{4}$$
-$$(10) \ \ \      \frac{d\nu(0)}{dx} = \phi_{1}=a_{3}$$
-$$(11) \ \ \      \nu(L)=v_{2}=a_{1}L^3+a_{2}L^2+a_{3}L+a_{4}$$
-$$(12) \ \ \      \frac{d\nu(L)}{dx} = \phi_{2}= 3a_{1}L^2+2a_{1}L+a_{3} $$
+$$(9) \ \ \      \nu(0)=v_{1}=a_{4}$$<br/>
+
+$$(10) \ \ \      \frac{d\nu(0)}{dx} = \phi_{1}=a_{3}$$<br/>
+
+$$(11) \ \ \      \nu(L)=v_{2}=a_{1}L^3+a_{2}L^2+a_{3}L+a_{4}$$<br/>
+
+$$(12) \ \ \      \frac{d\nu(L)}{dx} = \phi_{2}= 3a_{1}L^2+2a_{1}L+a_{3} $$<br/>
 
 Resolvendo as eq's. 9 a 12 em função dos parâmetros de forma $$a_1 ... a_4$$ e substituindo na eq. 8:
 <p style="text-align: justify;"> </p>
@@ -62,7 +66,8 @@ $$(20) \ \ \  N_4 = \frac{1}{L^3}(x^3L-x^2L^2)$$<br/>
 Sendo a relação entre deformações e deslocamento representado pela eq. 21 e entre o deslocamento axial (u) e transversal $$(\nu)$$ expresso pela eq. 22.
 <p style="text-align: justify;"> </p>
 $$(21) \ \ \  \varepsilon_x(x,y) = \frac{du}{dx}\\$$<br/>
-$$(22) \ \ \  u = -y\frac{d\nu}{dx}\\$$
+
+$$(22) \ \ \  u = -y\frac{d\nu}{dx}\\$$<br/>
 
 <p style="text-align: justify;">Substituindo a eq. 22 em eq. 21.</p>
 $$(23) \ \ \  \varepsilon_x(x,y) = -y\frac{d^2\nu}{dx^2}\\$$
@@ -71,15 +76,19 @@ $$(23) \ \ \  \varepsilon_x(x,y) = -y\frac{d^2\nu}{dx^2}\\$$
 $$(24) \ \ \  \sigma_x = \frac{-My}{I}\\$$
 
 <p style="text-align: justify;">A relação do momento fletor e esforço cortante com os deslocamentos pode ser expressa pelas eq's. 25 e 26.</p>
-$$(25) \ \ \  m(x)=EI\frac{d^2\nu}{dx^2}\\$$
-$$(26) \ \ \  V = EI\frac{d^3\nu}{dx^3}\\$$
+$$(25) \ \ \  m(x)=EI\frac{d^2\nu}{dx^2}\\$$<br/>
+
+$$(26) \ \ \  V = EI\frac{d^3\nu}{dx^3}\\$$<br/>
 
 <p style="text-align: justify;">Substituindo a equação de deslocamento eq. 13 nas eq's. 25 e 26, obtém-se os momentos fletores e esforços cortantes nos nós da viga (eq's. 27 a 30).</p>
 <p style="text-align: justify;"> </p>
-$$(27) \ \ \  f_{1y}=V=EI\frac{d^3\nu(0)}{dx^3}=\frac{EI}{L^3}(12\nu_1+6L\phi_1-12\nu_2+6L\phi_2)$$
-$$(28) \ \ \  m_{1}=-m=-EI\frac{d^2\nu(0)}{dx^2}=\frac{EI}{L^3}(6L\nu_1+4L^2\phi_1-6L\nu_2+2L^2\phi_2)$$
-$$(29) \ \ \  f_{2y}=V=EI\frac{d^3\nu(L)}{dx^3}=\frac{EI}{L^3}(-12\nu_1-6L\phi_1+12\nu_2-6L\phi_2)$$
-$$(30) \ \ \  m_{2}=-m=-EI\frac{d^2\nu(L)}{dx^2}=\frac{EI}{L^3}(6L\nu_1+2L^2\phi_1-6L\nu_2+4L^2\phi_2)$$
+$$(27) \ \ \  f_{1y}=V=EI\frac{d^3\nu(0)}{dx^3}=\frac{EI}{L^3}(12\nu_1+6L\phi_1-12\nu_2+6L\phi_2)$$<br/>
+
+$$(28) \ \ \  m_{1}=-m=-EI\frac{d^2\nu(0)}{dx^2}=\frac{EI}{L^3}(6L\nu_1+4L^2\phi_1-6L\nu_2+2L^2\phi_2)$$<br/>
+
+$$(29) \ \ \  f_{2y}=V=EI\frac{d^3\nu(L)}{dx^3}=\frac{EI}{L^3}(-12\nu_1-6L\phi_1+12\nu_2-6L\phi_2)$$<br/>
+
+$$(30) \ \ \  m_{2}=-m=-EI\frac{d^2\nu(L)}{dx^2}=\frac{EI}{L^3}(6L\nu_1+2L^2\phi_1-6L\nu_2+4L^2\phi_2)$$<br/>
 
 <p style="text-align: justify;">Por meio das eq's. 27 a 30 é possível obter a forma matricial dos deslocamentos globais (eq. 31).</p>
 $$(31) \ \ \  
