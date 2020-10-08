@@ -89,20 +89,24 @@ A partir da lei de Hooke (eq 23), substituindo a eq. 4 na eq. 23, é obtido a fo
 
 $$(24) \ \ \  \sigma_x = \frac{-My}{I}\\$$
 
-$$m(x)=EI\frac{d^2\nu}{dx^2}\\$$
-$$V = EI\frac{d^3\nu}{dx^3}\\$$
+A relação do momento fletor e esforço cortante com os deslocamentos pode ser expressa pelas eq's. 25 e 26.
 
+$$(25) \ \ \  m(x)=EI\frac{d^2\nu}{dx^2}\\$$
+$$(26) \ \ \  V = EI\frac{d^3\nu}{dx^3}\\$$
 
-$$f_{1y}=V=EI\frac{d^3\nu(0)}{dx^3}=\frac{EI}{L^3}(12\nu_1+6L\phi_1-12\nu_2+6L\phi_2)$$
+Substituindo a equação de deslocamento eq. 13 nas eq's. 25 e 26, obtém-se os momentos fletores e esforços cortantes nos nós da viga (eq's. 27 a 30)
 
-$$m_{1}=-m=-EI\frac{d^2\nu(0)}{dx^2}=\frac{EI}{L^3}(6L\nu_1+4L^2\phi_1-6L\nu_2+2L^2\phi_2)$$
+$$(27) \ \ \  f_{1y}=V=EI\frac{d^3\nu(0)}{dx^3}=\frac{EI}{L^3}(12\nu_1+6L\phi_1-12\nu_2+6L\phi_2)$$
 
-$$f_{2y}=V=EI\frac{d^3\nu(L)}{dx^3}=\frac{EI}{L^3}(-12\nu_1-6L\phi_1+12\nu_2-6L\phi_2)$$
+$$(28) \ \ \  m_{1}=-m=-EI\frac{d^2\nu(0)}{dx^2}=\frac{EI}{L^3}(6L\nu_1+4L^2\phi_1-6L\nu_2+2L^2\phi_2)$$
 
-$$m_{2}=-m=-EI\frac{d^2\nu(L)}{dx^2}=\frac{EI}{L^3}(6L\nu_1+2L^2\phi_1-6L\nu_2+4L^2\phi_2)$$
+$$(29) \ \ \  f_{2y}=V=EI\frac{d^3\nu(L)}{dx^3}=\frac{EI}{L^3}(-12\nu_1-6L\phi_1+12\nu_2-6L\phi_2)$$
 
+$$(30) \ \ \  m_{2}=-m=-EI\frac{d^2\nu(L)}{dx^2}=\frac{EI}{L^3}(6L\nu_1+2L^2\phi_1-6L\nu_2+4L^2\phi_2)$$
 
-$$
+Por meio das eq's. 27 a 30 é possível obter a forma matricial dos deslocamentos globais (eq. 31).
+
+$$(30) \ \ \  
 \begin{Bmatrix}
 f_{1y}\\
 m_1\\
