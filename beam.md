@@ -14,7 +14,8 @@ $$(3) \ \ \      \sum{M_2}=0: -Vdx+dM+w(x)dx\frac{dx}{2}=0 \ ou \ V=\frac{dM}{dx
 <p style="text-align: justify;">A curvatura das vigas pode ser obtida por meio da eq. 4.</p>
 $$(4) \ \ \      \kappa = \frac{1}{\rho }=\frac{M}{EI}$$
 
-Equanto a curvatura para pequenas rotações $$\phi = \frac{d\nu}{dx}$$ é dada pela eq. 5.<p style="text-align: justify;"> </p>
+Equanto a curvatura para pequenas rotações $$\phi = \frac{d\nu}{dx}$$ é dada pela eq. 5.
+<p style="text-align: justify;"> </p>
 $$(5) \ \ \      \kappa = \frac{d^2v}{dx^2 }$$
 
 <p style="text-align: justify;">Substituindo as eq's. 2 e 3 na eq. 5:</p>
@@ -26,16 +27,19 @@ $$(7) \ \ \      EI\frac{d^4v}{dx^4}$$
 <p style="text-align: justify;">A função de deslocamento adotada será uma função cúbica (eq. 8), que apresenta boa representação do deslocamento em vigas.</p>
 $$(8) \ \ \   \nu(x)=a_{1}x^3+a_{2}x^2+a_{3}x+a_{4}$$
 
-Representando a eq. 8 em função dos graus de liberdade $$\nu_1, \phi_1, \nu_2, \phi_2$$ se obtém eq's. 9 a 12.<p style="text-align: justify;"> </p>
+Representando a eq. 8 em função dos graus de liberdade $$\nu_1, \phi_1, \nu_2, \phi_2$$ se obtém eq's. 9 a 12.
+<p style="text-align: justify;"> </p>
 $$(9) \ \ \      \nu(0)=v_{1}=a_{4}$$
 $$(10) \ \ \      \frac{d\nu(0)}{dx} = \phi_{1}=a_{3}$$
 $$(11) \ \ \      \nu(L)=v_{2}=a_{1}L^3+a_{2}L^2+a_{3}L+a_{4}$$
 $$(12) \ \ \      \frac{d\nu(L)}{dx} = \phi_{2}= 3a_{1}L^2+2a_{1}L+a_{3} $$
 
-Resolvendo as eq's. 9 a 12 em função dos parâmetros de forma $$a_1 ... a_4$$ e substituindo na eq. 8:<p style="text-align: justify;"> </p>
+Resolvendo as eq's. 9 a 12 em função dos parâmetros de forma $$a_1 ... a_4$$ e substituindo na eq. 8:
+<p style="text-align: justify;"> </p>
 $$(13) \ \ \        \nu=\frac{2}{L^3}(\nu_{1}-\nu_{2})+\frac{1}{L^2}(\phi_{1}-\phi_{2})x^3-\frac{3}{L^2}(\nu_{1}-\nu_{2})-\frac{1}{L}(2\phi_{1}-\phi_{2})x^2+\phi_1x+\nu_1$$
 
-Transformando as expressões para as formas matriciais descritas nas eq's 14 a 16, é possível obter as funções de forma $$N_1 ... N_4$$ para o elemento viga eq's. 17 a 20.<p style="text-align: justify;"> </p>
+Transformando as expressões para as formas matriciais descritas nas eq's 14 a 16, é possível obter as funções de forma $$N_1 ... N_4$$ para o elemento viga eq's. 17 a 20.
+<p style="text-align: justify;"> </p>
 $$(14) \ \ \        \nu = [N*\{d\}$$
 $$(15) \ \ \        
 \{d\}=\begin{Bmatrix}
