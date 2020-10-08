@@ -40,7 +40,7 @@ $$(13) \ \ \        \nu=\frac{2}{L^3}(\nu_{1}-\nu_{2})+\frac{1}{L^2}(\phi_{1}-\p
 
 Transformando as expressões para as formas matriciais descritas nas eq's 14 a 16, é possível obter as funções de forma $$N_1 ... N_4$$ para o elemento viga eq's. 17 a 20.
 <p style="text-align: justify;"> </p>
-$$(14) \ \ \        \nu = [N*\{d\}$$
+$$(14) \ \ \        \nu = [N*\{d\}$$<br/>
 $$(15) \ \ \        
 \{d\}=\begin{Bmatrix}
 \nu_1\\
@@ -48,20 +48,17 @@ $$(15) \ \ \
 \nu_2\\
 \phi_2\\
 \end{Bmatrix}
-$$
-$$(16) \ \ \  [N*=[N_1 \ N_2 \ N_3 \ N_4* $$
+$$<br/>
+$$(16) \ \ \  [N*=[N_1 \ N_2 \ N_3 \ N_4* $$<br/>
 
-$$(17) \ \ \  N_1 = \frac{1}{L^3}(2x^3-3x^2L+L^3)$$
-
-$$(18) \ \ \  N_2 = \frac{1}{L^3}(x^3L-2x^2L^2+xL^3)$$
-
-$$(19) \ \ \  N_3 = \frac{1}{L^3}(-2x^3+3x^2L)$$
-
-$$(20) \ \ \  N_4 = \frac{1}{L^3}(x^3L-x^2L^2)$$
+$$(17) \ \ \  N_1 = \frac{1}{L^3}(2x^3-3x^2L+L^3)$$<br/>
+$$(18) \ \ \  N_2 = \frac{1}{L^3}(x^3L-2x^2L^2+xL^3)$$<br/>
+$$(19) \ \ \  N_3 = \frac{1}{L^3}(-2x^3+3x^2L)$$<br/>
+$$(20) \ \ \  N_4 = \frac{1}{L^3}(x^3L-x^2L^2)$$<br/>
 
 Sendo a relação entre deformações e deslocamento representado pela eq. 21 e entre o deslocamento axial (u) e transversal $$(\nu)$$ expresso pela eq. 22.
 <p style="text-align: justify;"> </p>
-$$(21) \ \ \  \varepsilon_x(x,y) = \frac{du}{dx}\\$$
+$$(21) \ \ \  \varepsilon_x(x,y) = \frac{du}{dx}\\$$<br/>
 $$(22) \ \ \  u = -y\frac{d\nu}{dx}\\$$
 
 <p style="text-align: justify;">Substituindo a eq. 22 em eq. 21.</p>
