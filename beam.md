@@ -6,45 +6,47 @@
 A seguinte matriz de rigidez é baseada na teoria de vigas de Euler-Bernoulli. Onde é considerado que as seções perpendiculares ao eixo longitudinal permanecem planas após a aplicação de cargas.
 Sendo uma viga submetida a uma carga distribuída w(x), das equações de equilíbrio se obtém eq.1.
 
-$$(1)     \sum{F_y }= 0: V-(V+dV)-w(x)dx=0 \label{1}$$
+$$(1) \ \ \     \sum{F_y }= 0: V-(V+dV)-w(x)dx=0 \label{1}$$
 
-Simplifando a Eq. 1, obtém-se eq. 2 e 3.
+Simplificando a Eq. 1, obtém-se eq. 2 e 3.
 
-$$(2)     -wdx - dV = 0 \   or \ w=-\frac{dV}{dx}$$
+$$(2) \ \ \      -wdx - dV = 0 \   or \ w=-\frac{dV}{dx}$$
 
-$$(3)     \sum{M_2}=0: -Vdx+dM+w(x)dx\frac{dx}{2}=0 \ or \ V=\frac{dM}{dx}$$
+$$(3) \ \ \      \sum{M_2}=0: -Vdx+dM+w(x)dx\frac{dx}{2}=0 \ or \ V=\frac{dM}{dx}$$
 
 A curvatura das vigas pode ser obtida por meio da eq. 4.
 
-$$(4)     \kappa = \frac{1}{\rho }=\frac{M}{EI}$$
+$$(4) \ \ \      \kappa = \frac{1}{\rho }=\frac{M}{EI}$$
 
-Equanto a curvatura para pequenas rotações $$\phi - \frac{dv}{dx}$$ é dada pela eq. 5.
+Equanto a curvatura para pequenas rotações $$\phi - \frac{d\nu}{dx}$$ é dada pela eq. 5.
 
-$$(5)     \kappa = \frac{d^2v}{dx^2 }$$
+$$(5) \ \ \      \kappa = \frac{d^2v}{dx^2 }$$
 
 Substituindo as eq's. 2 e 3 na eq. 5:
 
-$$(6)     \frac{d^2}{dx^2}[EI\frac{d^2v}{dx^2}]=-w(x)$$
+$$(6) \ \ \      \frac{d^2}{dx^2}[EI\frac{d^2v}{dx^2}]=-w(x)$$
 
 Para um módulo de rigidez longitudinal (EI) constante, e com atuação de apenas forças e momentos, a eq. 6 se torna eq. 7.
 
-$$(7)     EI\frac{d^4v}{dx^4}$$
+$$(7) \ \ \      EI\frac{d^4v}{dx^4}$$
 
 A função de deslocamento adotada será uma função cúbica (eq. 8), que apresenta boa representação do deslocamento em vigas.
 
-$$(8)  \nu(x)=a_{1}x^3+a_{2}x^2+a_{3}x+a_{4}$$
+$$(8) \ \ \   \nu(x)=a_{1}x^3+a_{2}x^2+a_{3}x+a_{4}$$
 
 Representando a eq. 8 em função dos graus de liberdade $$\nu_1, \phi_1, \nu_2, \phi_2$$ se obtém eq's. 9 a 12.
 
-$$(9)     \nu(0)=v_{1}=a_{4}$$
+$$(9) \ \ \      \nu(0)=v_{1}=a_{4}$$
 
-$$(10)     \frac{d\nu(0)}{dx} = \phi_{1}=a_{3}$$
+$$(10) \ \ \      \frac{d\nu(0)}{dx} = \phi_{1}=a_{3}$$
 
-$$(11)     \nu(L)=v_{2}=a_{1}L^3+a_{2}L^2+a_{3}L+a_{4}$$
+$$(11) \ \ \      \nu(L)=v_{2}=a_{1}L^3+a_{2}L^2+a_{3}L+a_{4}$$
 
-$$(12)     \frac{d\nu(L)}{dx} = \phi_{2}= 3a_{1}L^2+2a_{1}L+a_{3} $$
+$$(12) \ \ \      \frac{d\nu(L)}{dx} = \phi_{2}= 3a_{1}L^2+2a_{1}L+a_{3} $$
 
-$$\nu=\frac{2}{L^3}(\nu_{1}-\nu_{2})+\frac{1}{L^2}(\phi_{1}-\phi_{2})x^3-\frac{3}{L^2}(\nu_{1}-\nu_{2})-\frac{1}{L}(2\phi_{1}-\phi_{2})x^2+\phi_1x+\nu_1$$
+Resolvendo as eq's. 9 a 12 em função dos parâmetros de forma $$a_1 ... a_4$$ e substituindo na eq. 8:
+
+$$(13) \ \ \        \nu=\frac{2}{L^3}(\nu_{1}-\nu_{2})+\frac{1}{L^2}(\phi_{1}-\phi_{2})x^3-\frac{3}{L^2}(\nu_{1}-\nu_{2})-\frac{1}{L}(2\phi_{1}-\phi_{2})x^2+\phi_1x+\nu_1$$
 
 $$\nu = [N*\{d\}$$
 
