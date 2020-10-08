@@ -9,7 +9,7 @@ $$(1) \ \ \     \sum{F_y }= 0: V-(V+dV)-w(x)dx=0 \label{1}$$
 
 <p style="text-align: justify;">Simplificando a Eq. 1, obtém-se eq. 2 e 3.</p>
 $$(2) \ \ \      -wdx - dV = 0 \   or \ w=-\frac{dV}{dx}$$
-$$(3) \ \ \      \sum{M_2}=0: -Vdx+dM+w(x)dx\frac{dx}{2}=0 \ or \ V=\frac{dM}{dx}$$
+$$(3) \ \ \      \sum{M_2}=0: -Vdx+dM+w(x)dx\frac{dx}{2}=0 \ ou \ V=\frac{dM}{dx}$$
 
 <p style="text-align: justify;">A curvatura das vigas pode ser obtida por meio da eq. 4.</p>
 $$(4) \ \ \      \kappa = \frac{1}{\rho }=\frac{M}{EI}$$
@@ -66,10 +66,10 @@ $$(25) \ \ \  m(x)=EI\frac{d^2\nu}{dx^2}\\$$
 $$(26) \ \ \  V = EI\frac{d^3\nu}{dx^3}\\$$
 
 <p style="text-align: justify;">Substituindo a equação de deslocamento eq. 13 nas eq's. 25 e 26, obtém-se os momentos fletores e esforços cortantes nos nós da viga (eq's. 27 a 30).</p>
-$$(27) \ \ \  f_{1y}=V=EI\frac{d^3\nu(0)}{dx^3}=\frac{EI}{L^3}(12\nu_1+6L\phi_1-12\nu_2+6L\phi_2)$$
-$$(28) \ \ \  m_{1}=-m=-EI\frac{d^2\nu(0)}{dx^2}=\frac{EI}{L^3}(6L\nu_1+4L^2\phi_1-6L\nu_2+2L^2\phi_2)$$
-$$(29) \ \ \  f_{2y}=V=EI\frac{d^3\nu(L)}{dx^3}=\frac{EI}{L^3}(-12\nu_1-6L\phi_1+12\nu_2-6L\phi_2)$$
-$$(30) \ \ \  m_{2}=-m=-EI\frac{d^2\nu(L)}{dx^2}=\frac{EI}{L^3}(6L\nu_1+2L^2\phi_1-6L\nu_2+4L^2\phi_2)$$
+$$(27) \ \ \  f_{1y}=V=EI\frac{d^3\nu(0)}{dx^3}=\frac{EI}{L^3}(12\nu_1+6L\phi_1-12\nu_2+6L\phi_2)\\
+(28) \ \ \  m_{1}=-m=-EI\frac{d^2\nu(0)}{dx^2}=\frac{EI}{L^3}(6L\nu_1+4L^2\phi_1-6L\nu_2+2L^2\phi_2)\\
+(29) \ \ \  f_{2y}=V=EI\frac{d^3\nu(L)}{dx^3}=\frac{EI}{L^3}(-12\nu_1-6L\phi_1+12\nu_2-6L\phi_2)\\
+(30) \ \ \  m_{2}=-m=-EI\frac{d^2\nu(L)}{dx^2}=\frac{EI}{L^3}(6L\nu_1+2L^2\phi_1-6L\nu_2+4L^2\phi_2)$$
 
 <p style="text-align: justify;">Por meio das eq's. 27 a 30 é possível obter a forma matricial dos deslocamentos globais (eq. 31).</p>
 $$(31) \ \ \  
