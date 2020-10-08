@@ -1,6 +1,7 @@
 #Matriz de rigidez Treliça
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> 
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<div class="MathJax_Display" style="text-align: left;">
 
 ## DETERMINAÇÃO DO DIAGRAMA MOMENTO CURVATURA
 
@@ -152,10 +153,10 @@ $$
 
 
 $$
-\begin{aligneddat}
+\begin{aligned}
 \delta^L &= \nabla_{a^L}C \odot \sigma'(z^L) & (1) \\[0.7em]
 \delta^l &= (w^{l+1})^T \delta^{l+1} \odot \sigma'(z^l) & (2) \\[0.7em]
 \frac{\partial C }{\partial b_j^l}  &= \delta^l_j & (3) \\[0.7em]
 \frac{\partial C }{\partial w_{kj}^l} &= \delta_k^l a_j^{l-1} & (4)
-\end{aligneddat}
+\end{aligned}
 $$
