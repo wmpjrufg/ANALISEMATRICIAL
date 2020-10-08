@@ -4,9 +4,9 @@
 # Matriz de rigidez Viga
 
 A seguinte matriz de rigidez é baseada na teoria de vigas de Euler-Bernoulli. Onde é considerado que as seções perpendiculares ao eixo longitudinal permanecem planas após a aplicação de cargas.
-Sendo uma viga submetida a uma carga distribuída w(x), das equações de equilíbrio se obtém [1].
+Sendo uma viga submetida a uma carga distribuída w(x), das equações de equilíbrio se obtém :eq1:.
 
-$$[1]\sum{F_y }= 0: V-(V+dV)-w(x)dx=0 $$
+$$:eq1:\sum{F_y }= 0: V-(V+dV)-w(x)dx=0 $$
 
 $$-wdx - dV = 0 \   or \ w=-\frac{dV}{dx}$$
 
