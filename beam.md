@@ -9,11 +9,13 @@ Sendo uma viga submetida a uma carga distribuída w(x), das equações de equil�
 
 </div>
 
-<div style="text-align: right">
 
-$$(1) \ \ \     \sum{F_y }= 0: V-(V+dV)-w(x)dx=0 \label{1}$$
 
-</div>
+$$<div style="text-align: right">
+     (1) \ \ \     \sum{F_y }= 0: V-(V+dV)-w(x)dx=0 \label{1}
+</div>$$
+
+
 
 Simplificando a Eq. 1, obtém-se eq. 2 e 3.
 
@@ -71,13 +73,13 @@ $$
 $$(16) \ \ \  [N*=[N_1 \ N_2 \ N_3 \ N_4* $$
 
 
-$$N_1 = \frac{1}{L^3}(2x^3-3x^2L+L^3)$$
+$$(17) \ \ \  N_1 = \frac{1}{L^3}(2x^3-3x^2L+L^3)$$
 
-$$N_2 = \frac{1}{L^3}(x^3L-2x^2L^2+xL^3)$$
+$$(18) \ \ \  N_2 = \frac{1}{L^3}(x^3L-2x^2L^2+xL^3)$$
 
-$$N_3 = \frac{1}{L^3}(-2x^3+3x^2L)$$
+$$(19) \ \ \  N_3 = \frac{1}{L^3}(-2x^3+3x^2L)$$
 
-$$N_4 = \frac{1}{L^3}(x^3L-x^2L^2)$$
+$$(20) \ \ \  N_4 = \frac{1}{L^3}(x^3L-x^2L^2)$$
 
 
 $$u = -y\frac{d\nu}{dx}\\$$
