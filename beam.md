@@ -52,8 +52,11 @@ $$<br/>
 $$(16) \ \ \  [N*=[N_1 \ N_2 \ N_3 \ N_4* $$<br/>
 
 $$(17) \ \ \  N_1 = \frac{1}{L^3}(2x^3-3x^2L+L^3)$$<br/>
+
 $$(18) \ \ \  N_2 = \frac{1}{L^3}(x^3L-2x^2L^2+xL^3)$$<br/>
+
 $$(19) \ \ \  N_3 = \frac{1}{L^3}(-2x^3+3x^2L)$$<br/>
+
 $$(20) \ \ \  N_4 = \frac{1}{L^3}(x^3L-x^2L^2)$$<br/>
 
 Sendo a relação entre deformações e deslocamento representado pela eq. 21 e entre o deslocamento axial (u) e transversal $$(\nu)$$ expresso pela eq. 22.
