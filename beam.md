@@ -81,12 +81,19 @@ $$(19) \ \ \  N_3 = \frac{1}{L^3}(-2x^3+3x^2L)$$
 
 $$(20) \ \ \  N_4 = \frac{1}{L^3}(x^3L-x^2L^2)$$
 
+Sendo a relação entre deformações e deslocamento representado pela eq. 21 e entre o deslocamento axial (u) e transversal $$(\nu)$$ expresso pela eq. 22.
 
-$$u = -y\frac{d\nu}{dx}\\$$
+$$(21) \ \ \  \varepsilon_x(x,y) = \frac{du}{dx}\\$$
 
-$$\varepsilon_x(x,y) = -y\frac{d^2\nu}{dx^2}\\$$
+$$(22) \ \ \  u = -y\frac{d\nu}{dx}\\$$
 
-$$\sigma_x = \frac{-My}{I}\\$$
+Substituindo a eq. 22 em eq. 21.
+
+$$(23) \ \ \  \varepsilon_x(x,y) = -y\frac{d^2\nu}{dx^2}\\$$
+
+A partir da lei de Hooke (eq 23), substituindo a eq. 4 na eq. 23, é obtido a formulação para tensões em vigas (eq. 24).
+
+$$(24) \ \ \  \sigma_x = \frac{-My}{I}\\$$
 
 $$m(x)=EI\frac{d^2\nu}{dx^2}\\$$
 $$V = EI\frac{d^3\nu}{dx^3}\\$$
