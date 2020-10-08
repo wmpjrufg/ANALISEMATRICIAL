@@ -6,7 +6,7 @@
 A seguinte matriz de rigidez é baseada na teoria de vigas de Euler-Bernoulli. Onde é considerado que as seções perpendiculares ao eixo longitudinal permanecem planas após a aplicação de cargas.
 Sendo uma viga submetida a uma carga distribuída w(x), das equações de equilíbrio se obtém eq.1.
 
-$$(1)     \sum{F_y }= 0: V-(V+dV)-w(x)dx=0 \label$$
+$$(1)     \sum{F_y }= 0: V-(V+dV)-w(x)dx=0 \label{1}$$
 
 Simplifando a Eq. 1, obtém-se eq. 2 e 3.
 
@@ -30,6 +30,7 @@ Para um módulo de rigidez longitudinal (EI) constante, e com atuação de apena
 
 $$(7)     EI\frac{d^4v}{dx^4}$$
 
+A função de deslocamento adotada será uma função cúbica (eq. 8), que apresenta boa representação do deslocamento em vigas.
 
 $$
 (1)\nu(x)=a_{1}x^3+a_{2}x^2+a_{3}x+a_{4}
