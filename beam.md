@@ -18,7 +18,7 @@ $$(3) \ \ \      \sum{M_2}=0: -Vdx+dM+w(x)dx\frac{dx}{2}=0 \ or \ V=\frac{dM}{dx
 
 $$(4) \ \ \      \kappa = \frac{1}{\rho }=\frac{M}{EI}$$
 
-<p style="text-align: justify;">Equanto a curvatura para pequenas rotações $$\phi = \frac{d\nu}{dx}$$ é dada pela eq. 5.</p>
+Equanto a curvatura para pequenas rotações $$\phi = \frac{d\nu}{dx}$$ é dada pela eq. 5.
 
 $$(5) \ \ \      \kappa = \frac{d^2v}{dx^2 }$$
 
