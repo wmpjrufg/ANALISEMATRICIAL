@@ -3,9 +3,12 @@
 
 # Matriz de rigidez Viga
 
+A seguinte matriz de rigidez é baseada na teoria de vigas de Euler-Bernoulli. Onde é considerado que as seções perpendiculares ao eixo longitudinal permanecem planas após a aplicação de cargas.
+
 ## Função deslocamento
 
-$$\sum{F_y }= 0: V-(V+dV)-w(x)dx=-wdx - dV = 0 \   or \ w=-\frac{dV}{dx}$$
+$$\sum{F_y }= 0: V-(V+dV)-w(x)dx=0 $$
+$$-wdx - dV = 0 \   or \ w=-\frac{dV}{dx}$$
 
 $$\sum{M_2}=0: -Vdx+dM+w(x)dx\frac{dx}{2}=0 \ or \ V=\frac{dM}{dx}$$
 $$\kappa = \frac{1}{\rho }=\frac{M}{EI}$$
