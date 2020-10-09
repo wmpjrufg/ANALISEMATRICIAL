@@ -2,22 +2,23 @@
 
 # Matriz de rigidez Pórtico
 
-<p style="text-align: justify;">Pórticos são elementos estruturais arbitrariamente orientados no plano, em que sua modelagem físico-matemática são considerados rotações, translações verticais e translações horizontais.</p>
-
-<p style="text-align: justify;">Sendo a relação entre os graus de liberdade de um elemento orientado no plano com eixos locais x'-y' e os graus de liberdade orientados nos eixos globais x-y expresso pela eq. 1 (Ver dedução da matriz de rigidez de [treliças](https://wmpjrufg.github.io/ANALISEMATRICIAL/truss.html)).</p>
+<p style="text-align: justify;">Pórticos são elementos estruturais arbitrariamente orientados no plano, em que sua modelagem físico-matemática são considerados rotações, translações verticais e translações horizontais.
+Sendo a relação entre os graus de liberdade de um elemento orientado no plano com eixos locais x'-y' e os graus de liberdade orientados nos eixos globais x-y expresso pela eq. 1.</p>
  
-$$(1) \ \ \     \sigma_x= E\varepsilon_x$$<br/>
+$$(1) \ \ \     \begin{Bmatrix}\nu'_1 \\ \phi'_1\\ \nu'_2 \\ \phi'_2 \end{Bmatrix} = \begin{bmatrix}-S & C & 0& 0& 0& 0\\ 0 & 0 & 1& 0& 0& 0\\ 0 & 0 & 0& -S& C& 0\\ 0 & 0 & 0& 0& 0& 1 \end{bmatrix}\begin{Bmatrix}u_1\\\nu_1 \\ \phi_1\\ u_2\\\nu_2 \\ \phi_2 \end{Bmatrix}$$<br/>
 
-$$\begin{Bmatrix}\nu'_1 \\ \phi'_1\\ \nu'_2 \\ \phi'_2 \end{Bmatrix} = \begin{bmatrix}-S & C & 0& 0& 0& 0\\ 0 & 0 & 1& 0& 0& 0\\ 0 & 0 & 0& -S& C& 0\\ 0 & 0 & 0& 0& 0& 1 \end{bmatrix}\begin{Bmatrix}u_1\\\nu_1 \\ \phi_1\\ u_2\\\nu_2 \\ \phi_2 \end{Bmatrix}$$
-\\
-\\
-$$T =\begin{bmatrix}-S & C & 0& 0& 0& 0\\ 0 & 0 & 1& 0& 0& 0\\ 0 & 0 & 0& -S& C& 0\\ 0 & 0 & 0& 0& 0& 1 \end{bmatrix}$$
+<p style="text-align: justify;"> Onde a matriz de transformação é expressa pela eq. 2.</p>
+$$(2) \ \ \     T =\begin{bmatrix}-S & C & 0& 0& 0& 0\\ 0 & 0 & 1& 0& 0& 0\\ 0 & 0 & 0& -S& C& 0\\ 0 & 0 & 0& 0& 0& 1 \end{bmatrix}$$<br/>
 
-\\
-\\
+<p style="text-align: justify;"> Sendo a rigidez para um elemento orientaod arbitrariamente no plano determinado pela eq. 3:</p>
+$$(3) \ \ \     [k] =[T^{T}][k'][T]$$<br/>
 
-$$k =\frac{EI}{L^3}\begin{bmatrix} 12S^2&-12SC&-6LS&-12S^2&12SC&-6LS\\&12C^2&6LC&12SC&-12C^2&6LC\\&&-4L^2&6LS&-6LC&2L^2\\&&&12C^2&-12SC&6LS\\&&&&12C^2&-6LC\\Simetrico&&&&&4L^2\\\end{bmatrix}$$
+<p style="text-align: justify;">Em um primeiro momento, a dedução da matriz de rigidez será realizada considerando a atuação de apenas rotação e esforços cisalhantes, deste modo, pode-se utilizar a matriz de rigidez de vigas para determinação da matriz de rigidez dos pórticos.</p>
+Substituindo a eq. 2 e eq. 32 - viga¹ na eq. 3 se obtém a matriz de rigidez global dos elementos (eq. 4).
 
+$$(3) \ \ \     $k =\frac{EI}{L^3}\begin{bmatrix} 12S^2&-12SC&-6LS&-12S^2&12SC&-6LS\\&12C^2&6LC&12SC&-12C^2&6LC\\&&-4L^2&6LS&-6LC&2L^2\\&&&12C^2&-12SC&6LS\\&&&&12C^2&-6LC\\Simetrico&&&&&4L^2\\\end{bmatrix}$$<br/>
+
+¹ [Dedução da matriz de rigidez de vigas](https://wmpjrufg.github.io/ANALISEMATRICIAL/beam.html) 
 
 $$\begin{Bmatrix}f'_{1x} \\ f'_{1y}\\ m'_{1} \\ f'_{2x} \\ f'_{2y} \\ m'_{2} \end{Bmatrix} = \begin{bmatrix}C_1 & 0 & 0& -C_1& 0& 0\\ 0 & 12C_2 & 6C_2L& 0& -12C_2& 6C_2L\\ 0 & 6C_2L& 4C_2L^2& 0& -6C_2L& 2C_2L^2\\-C_1 & 0 & 0& C_1& 0& 0\\ 0 & -12C_2 & -6C_2L& 0& 12C_2& -6C_2L\\ 0 & 6C_2L& 2C_2L^2& 0& -6C_2L& 4C_2L^2 \end{bmatrix}\begin{Bmatrix}u'_1\\\nu'_1 \\ \phi'_1\\ u'_2\\\nu'_2 \\ \phi'_2 \end{Bmatrix}$$
 
