@@ -1,8 +1,7 @@
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> 
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<div class="MathJax_Display" style="text-align: left;">
     
-#Matriz de rigidez Treliça
+# Matriz de rigidez Treliça
 
 <p style="text-align: justify;">As treliças são elementos estruturais cujo únicos esforços atuantes são aqueles normais à seção transversal. Isto é possível devido ao fato de que as cargas são aplicadas nos nós, que contém uniões denominadas rótulas, onde é permitido uma maior flexibilidade ao elemento sem a transmissão de esforços de flexão. Deste modo:</p>
 
