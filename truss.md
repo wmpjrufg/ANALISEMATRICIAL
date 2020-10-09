@@ -69,7 +69,7 @@ $$(19) \ \ \    [k] = \frac{AE}{L}\begin{bmatrix} 1 & -1 \\ -1 & 1 \end{bmatrix}
 
 ### Arbitrariamente orientada no plano x-y
 
-<p style="text-align: justify;"> Para a barra arbitrariamente orientada no plano global x-y, a matriz de forças pode ser expressa pela eq. 20 ou 21 na forma simplificada. </p> 
+<p style="text-align: justify;"> Para a barra arbitrariamente orientada no plano global x-y, a matriz de forças pode ser expressa pela eq. 20, ou eq. 21 na forma simplificada. </p> 
 
 $$(20) \ \ \    \begin{Bmatrix}f'_{1x}\\f'_2x
 \end{Bmatrix} = \frac{AE}{L}\begin{bmatrix} 1 & -1 \\ -1 & 1 \end{bmatrix} \begin{Bmatrix}u'_1 \\ u'_2 \end{Bmatrix}$$<br/>
@@ -110,14 +110,18 @@ $$(29) \ \ \     {f'} = [T]{f} $$<br/>
 <p style="text-align: justify;"> Substituindo as eq's. 26 e 27 na eq. 21, é obtido a eq. 30: </p>
 $$(30) \ \ \     [T]{f'} = [k'][T]{d} $$<br/>
 
-
-$$(28) \ \ \    \begin{Bmatrix}u'_1\\ \nu'_1 \\ u'_2\\ \nu'_2
+<p style="text-align: justify;"> Uma eventual obtenção dos deslocamentos não seria possível haja vista que substituindo a eq. 25 na eq. 30, resultaria em uma matriz [T] não quadrada, impossibilitando a obtenção de sua matriz inversa. Deste modo, é necessária expandir a eq. 25, incluindo os deslocamentos e forças perpendiculares ao eixo do elemento, mesmo sabendo que estes são nulos:  </p>
+$$(31) \ \ \    \begin{Bmatrix}u'_1\\ \nu'_1 \\ u'_2\\ \nu'_2
 \end{Bmatrix} = \begin{bmatrix} C & S & 0 & 0 \\ -S & C & 0 & 0 \\ 0 & 0 & C & S \\  0 & 0 & -S & C  \end{bmatrix} \begin{Bmatrix}u_1 \\ \nu_1 \\ u_2 \\ \nu_2 \end{Bmatrix}$$<br/>
 
-$$(29) \ \ \    [T] = \begin{bmatrix} C & S & 0 & 0 \\ -S & C & 0 & 0 \\ 0 & 0 & C & S \\  0 & 0 & -S & C  \end{bmatrix} $$<br/>
+<p style="text-align: justify;">A nova matriz de transformação será portanto a eq. 32.  </p>
+$$(32) \ \ \    [T] = \begin{bmatrix} C & S & 0 & 0 \\ -S & C & 0 & 0 \\ 0 & 0 & C & S \\  0 & 0 & -S & C  \end{bmatrix} $$<br/>
 
+<p style="text-align: justify;">Aplicando o mesmo processo de expansão à eq. 20:  </p>
 $$(30) \ \ \    \begin{Bmatrix}f'_1x\\ f'_1y \\ f'_2x\\ f'_2y
 \end{Bmatrix} = \frac{AE}{L}\begin{bmatrix} 1 & 0 & -1 & 0 \\ 0 & 0 & 0 & 0 \\ -1 & 0 & 1 & 0 \\  0 & 0 & 0 & 0  \end{bmatrix} \begin{Bmatrix}u_1 \\ \nu_1 \\ u_2 \\ \nu_2 \end{Bmatrix}$$<br/>
+
+
 
 $$(31) \ \ \     {f} = [T]^-1[k'][T]{d} $$<br/>
 
@@ -128,3 +132,4 @@ $$(33) \ \ \     {f} = [T]^T[k'][T]{d} $$<br/>
 $$(34) \ \ \     [k] = [T]^T[k'][T] $$<br/>
 
 $$(35) \ \ \    [k] = \frac{AE}{L}\begin{bmatrix} C^2 & CS & -C^2 & -CS \\ CS & S^2 & -CS & -S^2 \\ -C^2 & -CS & C^2 & CS \\  -CS & -S^2 & CS & S^2  \end{bmatrix} $$<br/>
+
