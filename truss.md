@@ -68,40 +68,48 @@ Sendo $${f} = [k]{d}$$, a matriz de rigidez será (eq. 19):
 $$(19) \ \ \    [k] = \frac{AE}{L}\begin{bmatrix} 1 & -1 \\ -1 & 1 \end{bmatrix}$$<br/>
 
 ### Arbitrariamente orientada no plano x-y
-Para a barra arbitrariamente orientada no plano global x-y.
 
-$$(16) \ \ \    \begin{Bmatrix}f'_{1x}\\f'_2x
+<p style="text-align: justify;"> Para a barra arbitrariamente orientada no plano global x-y, a matriz de forças pode ser expressa pela eq. 20 ou 21 na forma simplificada. </p> 
+
+$$(20) \ \ \    \begin{Bmatrix}f'_{1x}\\f'_2x
 \end{Bmatrix} = \frac{AE}{L}\begin{bmatrix} 1 & -1 \\ -1 & 1 \end{bmatrix} \begin{Bmatrix}u'_1 \\ u'_2 \end{Bmatrix}$$<br/>
 
-$$(17) \ \ \     {f'} = [k]{d'} $$<br/>
+$$(21) \ \ \     {f'} = [k']{d'} $$<br/>
 
-Sendo a barra arbitrariamente orientada no espaço, devido a decomposição de forças, a matriz de deslocamentos toma a seguinte forma:
+Onde:
+$${f'}$$: Forças aplicadas aos nós nos eixos locais x'-y';
+$$[k']$$: Matriz de rigidez do elemento orientado no plano x'-y';
+$${d'}$$: Deslocamentos nodais nos eixos locais x'-y';
 
-$$(18) \ \ \    \begin{Bmatrix}f_{1x}\\f_1y\\f_{2x}\\f_2y
+<p style="text-align: justify;"> Sendo a barra arbitrariamente orientada no espaço, devido a decomposição de forças, a matriz de deslocamentos global será representada pela eq. 22. </p>
+$$(22) \ \ \    \begin{Bmatrix}f_{1x}\\f_1y\\f_{2x}\\f_2y
 \end{Bmatrix} = [k] \begin{Bmatrix}u_1 \\ \nu_1 \\u_2 \\ \nu_2 \end{Bmatrix}$$<br/>
 
-$$(19) \ \ \     u'_1 = u_1cos\theta + \nu_1sin\theta $$<br/>
+<p style="text-align: justify;"> A relação dos deslocamentos locais e x'-y' com os deslocamentos globais em x-y é dado pelas eq's. 23 e 24. </p>
+$$(23) \ \ \     u'_1 = u_1cos\theta + \nu_1sin\theta $$<br/>
 
-$$(20) \ \ \     u'_2 = u_2cos\theta + \nu_2sin\theta $$<br/>
+$$(24) \ \ \     u'_2 = u_2cos\theta + \nu_2sin\theta $$<br/>
 
-Na forma matricial:
-
-
-$$(21) \ \ \    \begin{Bmatrix}u'_{1x}\\u'_2x
+<p style="text-align: justify;"> As eq's. 23 e 24 na forma matricial são expressos pela eq. 25. </p>
+$$(25) \ \ \    \begin{Bmatrix}u'_{1x}\\u'_2x
 \end{Bmatrix} = \begin{bmatrix} C & S & 0 & 0 \\ 0 & 0 & C & S  \end{bmatrix} \begin{Bmatrix}u_1 \\ \nu_1 \\ u_2 \\ \nu_2 \end{Bmatrix}$$<br/>
 
-$$(22) \ \ \     {d'} = [T]{d} $$<br/>
+<p style="text-align: justify;"> Nota-se então através da eq. 25 que a transformação dos deslocamentos locais e globais apresenta a seguinte relação (eq. 26) </p>
+$$(26) \ \ \     {d'} = [T]{d} $$<br/>
 
-$$(23) \ \ \   [T] = \begin{bmatrix} C & S & 0 & 0 \\ 0 & 0 & C & S  \end{bmatrix}$$<br/>
+<p style="text-align: justify;">Esta transformação de coordenadas é possível devido à [T], representado pela eq. 27.  </p>
+$$(27) \ \ \   [T] = \begin{bmatrix} C & S & 0 & 0 \\ 0 & 0 & C & S  \end{bmatrix}$$<br/>
 
-$$(24) \ \ \    \begin{Bmatrix}f'_{1x}\\f'_2x
+<p style="text-align: justify;"> De forma similar aos deslocamentos, a transformação das forças locais em globais é dada pela eq. 28. </p>
+$$(28) \ \ \    \begin{Bmatrix}f'_{1x}\\f'_2x
 \end{Bmatrix} = \begin{bmatrix} C & S & 0 & 0 \\ 0 & 0 & C & S  \end{bmatrix} \begin{Bmatrix}f_1x \\ f_1y \\ f_2x \\ f_2y \end{Bmatrix}$$<br/>
 
-$$(25) \ \ \     {f'} = [T]{f} $$<br/>
+<p style="text-align: justify;"> Da forma simplificada: </p>
+$$(29) \ \ \     {f'} = [T]{f} $$<br/>
 
-$$(26) \ \ \     {f'} = [k'][T]{d} $$<br/>
+<p style="text-align: justify;"> Substituindo as eq's. 26 e 27 na eq. 21, é obtido a eq. 30: </p>
+$$(30) \ \ \     [T]{f'} = [k'][T]{d} $$<br/>
 
-$$(27) \ \ \     [T]{f'} = [k'][T]{d} $$<br/>
 
 $$(28) \ \ \    \begin{Bmatrix}u'_1\\ \nu'_1 \\ u'_2\\ \nu'_2
 \end{Bmatrix} = \begin{bmatrix} C & S & 0 & 0 \\ -S & C & 0 & 0 \\ 0 & 0 & C & S \\  0 & 0 & -S & C  \end{bmatrix} \begin{Bmatrix}u_1 \\ \nu_1 \\ u_2 \\ \nu_2 \end{Bmatrix}$$<br/>
