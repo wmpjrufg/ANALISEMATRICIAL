@@ -22,3 +22,10 @@ $$(4) \ \ \     \frac{d}{dx}(AE\frac{du}{dx})$$<br/>
 
 <p style="text-align: justify;">Para este tipo de elemento, com deslocamentos apenas axiais, a função aproximadora pode ser tomada como linear (eq. 5). </p>
 $$(5) \ \ \     u = a_1 + a_2x$$<br/>
+
+$$(6) \ \ \     u = (\frac{u_2\timesu_1}{L})x+u_1$$<br/>
+
+$$(7) \ \ \     u = \begin{bmatrix} N_1 & N_2 \end{bmatrix}\begin{Bmatrix} u_1\\ u_2 \end{Bmatrix} $$<br/>
+
+
+
