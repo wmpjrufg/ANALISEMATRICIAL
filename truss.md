@@ -66,3 +66,25 @@ $$(18) \ \ \    \begin{Bmatrix}f_{1x}\\f_1y\\f_{2x}\\f_2y
 $$(19) \ \ \     u'_1 = u_1cos\theta + \nu_1sin\theta $$<br/>
 
 $$(20) \ \ \     u'_2 = u_2cos\theta + \nu_2sin\theta $$<br/>
+
+Na forma matricial:
+
+
+$$(21) \ \ \    \begin{Bmatrix}u'_{1x}\\u'_2x
+\end{Bmatrix} = \begin{bmatrix} C & S & 0 & 0 \\ 0 & 0 & C & S  \end{bmatrix} \begin{Bmatrix}u_1 \\ \nu_1 \\ u_2 \\ \nu_2 \end{Bmatrix}$$<br/>
+
+$$(22) \ \ \     {d'} = [T]{d} $$<br/>
+
+$$(23) \ \ \   [T] = \begin{bmatrix} C & S & 0 & 0 \\ 0 & 0 & C & S  \end{bmatrix}$$<br/>
+
+$$(24) \ \ \    \begin{Bmatrix}f'_{1x}\\f'_2x
+\end{Bmatrix} = \begin{bmatrix} C & S & 0 & 0 \\ 0 & 0 & C & S  \end{bmatrix} \begin{Bmatrix}f_1x \\ \f_1y \\ f_2x \\ \f_2y \end{Bmatrix}$$<br/>
+
+$$(25) \ \ \     {f'} = [T]{f} $$<br/>
+
+$$(26) \ \ \     {f'} = [k'][T]{d} $$<br/>
+
+$$(27) \ \ \     [T]{f'} = [k'][T]{d} $$<br/>
+
+$$(28) \ \ \    \begin{Bmatrix}u'_1\\ \nu'_1 \\ u'_2\\ \nu'_2
+\end{Bmatrix} = \begin{bmatrix} C & S & 0 & 0 \\ -S & C & 0 & 0 \\ 0 & 0 & C & S \\  0 & 0 & -S & C  \end{bmatrix} \begin{Bmatrix}u_1 \\ \nu_1 \\ u_2 \\ \nu_2 \end{Bmatrix}$$<br/>
