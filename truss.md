@@ -78,7 +78,7 @@ $$(22) \ \ \     {d'} = [T]{d} $$<br/>
 $$(23) \ \ \   [T] = \begin{bmatrix} C & S & 0 & 0 \\ 0 & 0 & C & S  \end{bmatrix}$$<br/>
 
 $$(24) \ \ \    \begin{Bmatrix}f'_{1x}\\f'_2x
-\end{Bmatrix} = \begin{bmatrix} C & S & 0 & 0 \\ 0 & 0 & C & S  \end{bmatrix} \begin{Bmatrix}f_1x \\ \f_1y \\ f_2x \\ \f_2y \end{Bmatrix}$$<br/>
+\end{Bmatrix} = \begin{bmatrix} C & S & 0 & 0 \\ 0 & 0 & C & S  \end{bmatrix} \begin{Bmatrix}f_1x \\ f_1y \\ f_2x \\ f_2y \end{Bmatrix}$$<br/>
 
 $$(25) \ \ \     {f'} = [T]{f} $$<br/>
 
@@ -91,5 +91,6 @@ $$(28) \ \ \    \begin{Bmatrix}u'_1\\ \nu'_1 \\ u'_2\\ \nu'_2
 
 $$(29) \ \ \    \begin{bmatrix} C & S & 0 & 0 \\ -S & C & 0 & 0 \\ 0 & 0 & C & S \\  0 & 0 & -S & C  \end{bmatrix} $$<br/>
 
-$$(30) \ \ \    \begin{Bmatrix}f'_1x\\ \f'_1y \\ f'_2x\\ \f'_2y
+$$(30) \ \ \    \begin{Bmatrix}f'_1x\\ f'_1y \\ f'_2x\\ f'_2y
 \end{Bmatrix} = \frac{AE}{L}\begin{bmatrix} 1 & 0 & -1 & 0 \\ 0 & 0 & 0 & 0 \\ -1 & 0 & 1 & 0 \\  0 & 0 & 0 & 0  \end{bmatrix} \begin{Bmatrix}u_1 \\ \nu_1 \\ u_2 \\ \nu_2 \end{Bmatrix}$$<br/>
+
