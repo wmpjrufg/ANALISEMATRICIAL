@@ -17,5 +17,7 @@ Do equilíbrio de forças, se obtém eq. 3.
 $$(3) \ \ \     A\sigma_x= T = constante$$<br/>
 
 A equação que governa o deslocamento será portanto:
-$$(4) \ \ \     \frac{d}{dx}(AE\frac{du}{dx})$$<br/>
+$$(4) \ \ \     \frac{d}{dx}(AE\frac{du}{dx}$$<br/>
 
+<p style="text-align: justify;">Para este tipo de elemento, com deslocamentos apenas axiais, a função aproximadora pode ser tomada como linear (eq. 5). </p>
+$$(5) \ \ \     u = a_1 + a_2x$$<br/>
