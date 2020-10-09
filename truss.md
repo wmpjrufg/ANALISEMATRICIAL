@@ -54,4 +54,11 @@ $$(15) \ \ \    [k] = \frac{AE}{L}\begin{bmatrix} 1 & -1 \\ -1 & 1 \end{bmatrix}
 Para a barra arbitrariamente orientada no plano global x-y.
 
 $$(16) \ \ \    \begin{Bmatrix}f'_{1x}\\f'_2x
-\end{Bmatrix} = \frac{AE}{L}\begin{bmatrix} 1 & -1 \\ -1 & 1 \end{bmatrix}$$<br/>
+\end{Bmatrix} = \frac{AE}{L}\begin{bmatrix} 1 & -1 \\ -1 & 1 \end{bmatrix} \begin{Bmatrix}u'_1 \\ u'_2 \end{Bmatrix}$$<br/>
+
+$$(17) \ \ \     {f'} = [k]{d'} $$<br/>
+
+Sendo a barra arbitrariamente orientada no espaço, devido a decomposição de forças, a matriz de deslocamentos toma a seguinte forma:
+
+$$(18) \ \ \    \begin{Bmatrix}f_{1x}\\f_1y\\f_{2x}\\f_2y
+\end{Bmatrix} = [k] \begin{Bmatrix}u_1 \\ \nu_1 \\u_2 \\ \nu_2 \end{Bmatrix}$$<br/>
