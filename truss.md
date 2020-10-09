@@ -43,7 +43,7 @@ $$(12) \ \ \     f_{1x} = f_{1x} = AE\frac{u_2u_1}{L} $$<br/>
 Expressando na forma matricial:
 
 $$(13) \ \ \    \begin{Bmatrix}f_{1x}\\f_2x
-\end{Bmatrix} = \frac{AE}{L}\begin{bmatrix} 1 & -1 \\ -1 & 1 \end{bmatrix}$$<br/>
+\end{Bmatrix} = \frac{AE}{L}\begin{bmatrix} 1 & -1 \\ -1 & 1 \end{bmatrix} \begin{Bmatrix}u_1 \\ u_2 \end{Bmatrix}$$<br/>
 
 $$(14) \ \ \     {f} = [k]{d} $$<br/>
 
@@ -51,4 +51,7 @@ Onde a matriz de rigidez é:
 
 $$(15) \ \ \    [k] = \frac{AE}{L}\begin{bmatrix} 1 & -1 \\ -1 & 1 \end{bmatrix}$$<br/>
 
+Para a barra arbitrariamente orientada no plano global x-y.
 
+$$(16) \ \ \    \begin{Bmatrix}f'_{1x}\\f'_2x
+\end{Bmatrix} = \frac{AE}{L}\begin{bmatrix} 1 & -1 \\ -1 & 1 \end{bmatrix}$$<br/>
