@@ -1,33 +1,21 @@
-#Matriz de rigidez Pórtico
-
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-\documentclass[journal]{IEEEtran}
-\usepackage{nccmath}
+# Matriz de rigidez Pórtico
 
-\usepackage{lipsum} % for generating dummy text, not use in real document
+<p style="text-align: justify;">Pórticos são elementos estruturais arbitrariamente orientados no plano, em que sua modelagem físico-matemática são considerados rotações, translações verticais e translações horizontais.</p>
 
-\begin{document}
-\lipsum[11]
-\begin{align}
-            x   & = \frac{-b\pm\sqrt{b^2-4ac}}{2a}          \label{eq1} \\
-\frac{d}{dx}r^n & = nx^{n-1}                                \label{eq2} \\
-\mathrm{Length} & = \int_{a}^{b}\sqrt{[f't]^2+[g't]^2}dt    \label{eq3}
-\end{align}
-or
-\begin{fleqn}
-\begin{equation}\label{eq1}
-x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}
-\end{equation}
+\begin{Bmatrix}\nu'_1 \\ \phi'_1\\ \nu'_2 \\ \phi'_2 \end{Bmatrix} = \begin{bmatrix}\-S & C & 0& 0& 0& 0\\ \0 & 0 & 1& 0& 0& 0\\ 0 & 0 & 0& -S& C& 0\\ 0 & 0 & 0& 0& 0& 1 \end{bmatrix}\begin{Bmatrix}u_1\\\nu_1 \\ \phi_1\\ u_2\\\nu_2 \\ \phi_2 \end{Bmatrix}
+\\
+\\
+T =\begin{bmatrix}\-S & C & 0& 0& 0& 0\\ \0 & 0 & 1& 0& 0& 0\\ 0 & 0 & 0& -S& C& 0\\ 0 & 0 & 0& 0& 0& 1 \end{bmatrix}
 
-\begin{equation}\label{eq2}
-\frac{d}{dx}r^n=nx^{n-1}
-\end{equation}
+\\
+\\
 
-\begin{equation}\label{eq3}
-Length=\int_{a}^{b}\sqrt{[f't]^2+[g't]^2}dt
-\end{equation}
-\end{fleqn}
-\lipsum[11]
+k =\frac{EI}{L^3}\begin{bmatrix} 12S^2&-12SC&-6LS&-12S^2&12SC&-6LS\\&12C^2&6LC&12SC&-12C^2&6LC\\&&-4L^2&6LS&-6LC&2L^2\\&&&12C^2&-12SC&6LS\\&&&&12C^2&-6LC\\Simetrico&&&&&4L^2\\\end{bmatrix}
 
-\end{document}
+
+\begin{Bmatrix}f'_{1x} \\ f'_{1y}\\ m'_{1} \\ f'_{2x} \\ f'_{2y} \\ m'_{2} \end{Bmatrix} = \begin{bmatrix}C_1 & 0 & 0& -C_1& 0& 0\\ 0 & 12C_2 & 6C_2L& 0& -12C_2& 6C_2L\\ 0 & 6C_2L& 4C_2L^2& 0& -6C_2L& 2C_2L^2\\-C_1 & 0 & 0& C_1& 0& 0\\ 0 & -12C_2 & -6C_2L& 0& 12C_2& -6C_2L\\ 0 & 6C_2L& 2C_2L^2& 0& -6C_2L& 4C_2L^2 \end{bmatrix}\begin{Bmatrix}u'_1\\\nu'_1 \\ \phi'_1\\ u'_2\\\nu'_2 \\ \phi'_2 \end{Bmatrix}
+
+
+258/106
