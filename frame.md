@@ -4,6 +4,10 @@
 
 <p style="text-align: justify;">Pórticos são elementos estruturais arbitrariamente orientados no plano, em que sua modelagem físico-matemática são considerados rotações, translações verticais e translações horizontais.</p>
 
+<p style="text-align: justify;">Sendo a relação entre os graus de liberdade de um elemento orientado no plano com eixos locais x'-y' e os graus de liberdade orientados nos eixos globais x-y expresso pela eq. 1 (Ver dedução da matriz de rigidez de [treliças](https://wmpjrufg.github.io/ANALISEMATRICIAL/truss.html)).</p>
+ 
+$$(1) \ \ \     \sigma_x= E\varepsilon_x$$<br/>
+
 $$\begin{Bmatrix}\nu'_1 \\ \phi'_1\\ \nu'_2 \\ \phi'_2 \end{Bmatrix} = \begin{bmatrix}-S & C & 0& 0& 0& 0\\ 0 & 0 & 1& 0& 0& 0\\ 0 & 0 & 0& -S& C& 0\\ 0 & 0 & 0& 0& 0& 1 \end{bmatrix}\begin{Bmatrix}u_1\\\nu_1 \\ \phi_1\\ u_2\\\nu_2 \\ \phi_2 \end{Bmatrix}$$
 \\
 \\
