@@ -62,3 +62,7 @@ Sendo a barra arbitrariamente orientada no espaço, devido a decomposição de f
 
 $$(18) \ \ \    \begin{Bmatrix}f_{1x}\\f_1y\\f_{2x}\\f_2y
 \end{Bmatrix} = [k] \begin{Bmatrix}u_1 \\ \nu_1 \\u_2 \\ \nu_2 \end{Bmatrix}$$<br/>
+
+$$(19) \ \ \     u'_1 = u_1cos\theta + \nu_1sin\theta $$<br/>
+
+$$(20) \ \ \     u'_2 = u_2cos\theta + \nu_2sin\theta $$<br/>
