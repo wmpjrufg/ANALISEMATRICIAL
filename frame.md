@@ -21,6 +21,7 @@ $$(4) \ \ \     k =\frac{EI}{L^3}\begin{bmatrix} 12S^2&-12SC&-6LS&-12S^2&12SC&-6
 
 <p style="text-align: justify;">De modo a abarcar todos os graus de liberdade possível para um pórtico plano, se insere os esforços axiais expressos matricialmente pela eq. 20 - treliça² na eq. 4, obtendo-se portanto, a eq. 5.</p> 
 O elemento contém agora 3 graus de liberdade por nó $$(u'_i, \nu'_i, \phi'_i)$$.
+<p style="text-align: justify;"> </p> 
 $$(5) \ \ \     \begin{Bmatrix}f'_{1x} \\ f'_{1y}\\ m'_{1} \\ f'_{2x} \\ f'_{2y} \\ m'_{2} \end{Bmatrix} = \begin{bmatrix}C_1 & 0 & 0& -C_1& 0& 0\\ 0 & 12C_2 & 6C_2L& 0& -12C_2& 6C_2L\\ 0 & 6C_2L& 4C_2L^2& 0& -6C_2L& 2C_2L^2\\-C_1 & 0 & 0& C_1& 0& 0\\ 0 & -12C_2 & -6C_2L& 0& 12C_2& -6C_2L\\ 0 & 6C_2L& 2C_2L^2& 0& -6C_2L& 4C_2L^2 \end{bmatrix}\begin{Bmatrix}u'_1\\\nu'_1 \\ \phi'_1\\ u'_2\\\nu'_2 \\ \phi'_2 \end{Bmatrix}$$<br/>
 
 ² [Dedução da matriz de rigidez de treliças](https://wmpjrufg.github.io/ANALISEMATRICIAL/truss.html)
@@ -29,7 +30,7 @@ $$(5) \ \ \     \begin{Bmatrix}f'_{1x} \\ f'_{1y}\\ m'_{1} \\ f'_{2x} \\ f'_{2y}
 
 $$C_1 = \frac{AE}{L} \ \ e \ \ C_2 = \frac{EI}{L^3}$$
 
-<p style="text-align: justify;"> Deste modo a matriz de rigidez do pórtico para 3 graus de liberdade por nó é determinada pela eq. 6</p>
+<p style="text-align: justify;"> Deste modo a matriz de rigidez local do pórtico para 3 graus de liberdade por nó é determinada pela eq. 6</p>
 $$(6) \ \ \     k' =\begin{bmatrix}C_1 & 0 & 0& -C_1& 0& 0\\ 0 & 12C_2 & 6C_2L& 0& -12C_2& 6C_2L\\ 0 & 6C_2L& 4C_2L^2& 0& -6C_2L& 2C_2L^2\\-C_1 & 0 & 0& C_1& 0& 0\\ 0 & -12C_2 & -6C_2L& 0& 12C_2& -6C_2L\\ 0 & 6C_2L& 2C_2L^2& 0& -6C_2L& 4C_2L^2 \end{bmatrix}$$<br/>
 
 <p style="text-align: justify;">Da mesma forma, inserindo os efeitos axiais da direção x', na relação entre deslocamentos locais e globais (eq. 1), resulta-se a eq. 7.</p>
@@ -38,14 +39,11 @@ $$(7) \ \ \    \begin{Bmatrix}u'_1\\\nu'_1 \\ \phi'_1\\ u'_2\\\nu'_2 \\ \phi'_2 
 <p style="text-align: justify;">A nova matriz de transformação é dada portanto através da eq. 8.</p>
 $$(8) \ \ \    T = \begin{bmatrix} C & S & 0& 0& 0& 0\\ -S & C& 0& 0& 0 &0\\ 0 & 0& 1& 0& 0& 0\\0 & 0 & 0& C& S& 0\\ 0 & 0 & 0& -S& C& 0\\ 0 & 0& 0& 0& 0& 1 \end{bmatrix}$$<br/>
 
-
-$$k = \frac{E}{L}\times\begin{bmatrix}AC^2+\frac{12I}{L^2}S^2 & (A-\frac{12I}{L^2})CS & \frac{-6I}{L}S &-(AC^2+\frac{12I}{L^2}S^2)&-(A-\frac{12I}{L^2})CS &-\frac{6I}{L}S\\ 
+<p style="text-align: justify;">Por fim, substituindo as eq's. 6 e 8 na eq. 3, obtém-se a matriz de rigidez global para um pórtico plano expresso pela eq. 9.</p>
+$$(9) \ \ \    k = \frac{E}{L}\times\begin{bmatrix}AC^2+\frac{12I}{L^2}S^2 & (A-\frac{12I}{L^2})CS & \frac{-6I}{L}S &-(AC^2+\frac{12I}{L^2}S^2)&-(A-\frac{12I}{L^2})CS &-\frac{6I}{L}S\\ 
 & AS^2+\frac{12I}{L^2}C^2  & \frac{6I}{L}C &-(A-\frac{12I}{L^2})CS&-(AS^2+\frac{12I}{L^2}C^2)&\frac{6I}{L}C\\
  & & 4I & \frac{6I}{L}S &-\frac{6I}{L}C & 2I\\
 & & & AC^2+\frac{12I}{L^2}S^2 & (A-\frac{12I}{L^2})CS&\frac{6I}{L}S\\
 & & & & AS^2+\frac{12I}{L^2}C^2& -\frac{6I}{L}C\\
-Simetrico & & & & & 4I\end{bmatrix}$$
+Simetrico & & & & & 4I\end{bmatrix}$$<br/>
 
-
-
-258/106
