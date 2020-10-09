@@ -37,3 +37,15 @@ $$(10) \ \ \     T = AE\frac{u_2\times{u_1}}{L}$$<br/>
 
 $$(11) \ \ \     f_{1x} = f_{1x} = AE\frac{u_2\times{u_1}}{L} $$<br/>
 
+Expressando na forma matricial:
+
+$$(12) \ \ \    \begin{Bmatrix}f_{1x}\\f_2x
+\end{Bmatrix} = \frac{AE}{L}\begin{bmatrix} 1 & -1 \\ -1 & 1 \end{bmatrix}$$<br/>
+
+$$(13) \ \ \     {f} = [k]{d} $$<br/>
+
+Onde a matriz de rigidez é:
+
+$$(14) \ \ \    [k] = \frac{AE}{L}\begin{bmatrix} 1 & -1 \\ -1 & 1 \end{bmatrix}$$<br/>
+
+
