@@ -2,6 +2,7 @@
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     
 # Matriz de rigidez Treliça
+### Paralela ao eixo x
 
 <p style="text-align: justify;">As treliças são elementos estruturais cujo únicos esforços atuantes são aqueles normais à seção transversal. Isto é possível devido ao fato de que as cargas são aplicadas nos nós, que contém uniões denominadas rótulas, onde é permitido uma maior flexibilidade ao elemento sem a transmissão de esforços de flexão. Deste modo:</p>
 
@@ -40,28 +41,33 @@ $$(10) \ \ \     u = \begin{bmatrix} N_1 & N_2 \end{bmatrix}\begin{Bmatrix} u_1\
 
 <p style="text-align: justify;">Sendo as funções de forma dadas por:</p>
 
-$$(8) \ \ \    N_1 = N_2 = \frac{x}{L}$$<br/>
+$$(11) \ \ \    N_1 = -\frac{x}{L}$$<br/>
 
-$$(9) \ \ \     \varepsilon_x = \frac{u_2-u_1}{L}$$<br/>
+$$(12) \ \ \    N_2 = \frac{x}{L}$$<br/>
 
-$$(10) \ \ \     T = AE\frac{u_2-u_1}{L}$$<br/>
+<p style="text-align: justify;">Substituindo a eq. 9 na eq. 2 se obtém eq. 13 que expressa as deformações do elemento.</p>
+$$(13) \ \ \     \varepsilon_x = \frac{u_2-u_1}{L}$$<br/>
 
-Por convenção (Figura):
-$$(11) \ \ \     f_{1x} = -T \ e \ f_{2x} = T $$<br/>
+<p style="text-align: justify;">Substituindo a eq. 9 na eq. 3 se obtém eq. 14 que relaciona os esforços normais com os deslocamentos.</p>
+$$(14) \ \ \     T = AE\frac{u_2-u_1}{L}$$<br/>
 
-$$(12) \ \ \     f_{1x} = f_{1x} = AE\frac{u_2u_1}{L} $$<br/>
+<p style="text-align: justify;">Aplicando-se o método das seções no elemento, se obtém as seguintes forças axiais.</p> 
+$$(15) \ \ \     f_{1x} = -T \ e \ f_{2x} = T $$<br/>
 
-Expressando na forma matricial:
+$$(16) \ \ \     f_{1x} = -AE\frac{u_2 - u_1}{L} $$<br/>
 
-$$(13) \ \ \    \begin{Bmatrix}f_{1x}\\f_2x
+$$(17) \ \ \     f_{2x} = AE\frac{u_2 - u_1}{L} $$<br/>
+
+<p style="text-align: justify;">Expressando as eq's. 16 e 17 na forma matricial (eq. 18):
+</p> 
+$$(18) \ \ \    \begin{Bmatrix}f_{1x}\\f_2x
 \end{Bmatrix} = \frac{AE}{L}\begin{bmatrix} 1 & -1 \\ -1 & 1 \end{bmatrix} \begin{Bmatrix}u_1 \\ u_2 \end{Bmatrix}$$<br/>
 
-$$(14) \ \ \     {f} = [k]{d} $$<br/>
+Sendo $${f} = [k]{d}$$, a matriz de rigidez será (eq. 19):
+<p style="text-align: justify;"> </p> 
+$$(19) \ \ \    [k] = \frac{AE}{L}\begin{bmatrix} 1 & -1 \\ -1 & 1 \end{bmatrix}$$<br/>
 
-Onde a matriz de rigidez é:
-
-$$(15) \ \ \    [k] = \frac{AE}{L}\begin{bmatrix} 1 & -1 \\ -1 & 1 \end{bmatrix}$$<br/>
-
+### Arbitrariamente orientada no plano x-y
 Para a barra arbitrariamente orientada no plano global x-y.
 
 $$(16) \ \ \    \begin{Bmatrix}f'_{1x}\\f'_2x
