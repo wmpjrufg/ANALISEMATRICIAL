@@ -88,3 +88,8 @@ $$(27) \ \ \     [T]{f'} = [k'][T]{d} $$<br/>
 
 $$(28) \ \ \    \begin{Bmatrix}u'_1\\ \nu'_1 \\ u'_2\\ \nu'_2
 \end{Bmatrix} = \begin{bmatrix} C & S & 0 & 0 \\ -S & C & 0 & 0 \\ 0 & 0 & C & S \\  0 & 0 & -S & C  \end{bmatrix} \begin{Bmatrix}u_1 \\ \nu_1 \\ u_2 \\ \nu_2 \end{Bmatrix}$$<br/>
+
+$$(29) \ \ \    \begin{bmatrix} C & S & 0 & 0 \\ -S & C & 0 & 0 \\ 0 & 0 & C & S \\  0 & 0 & -S & C  \end{bmatrix} $$<br/>
+
+$$(30) \ \ \    \begin{Bmatrix}f'_1x\\ \f'_1y \\ f'_2x\\ \f'_2y
+\end{Bmatrix} = \frac{AE}{L}\begin{bmatrix} 1 & 0 & -1 & 0 \\ 0 & 0 & 0 & 0 \\ -1 & 0 & 1 & 0 \\  0 & 0 & 0 & 0  \end{bmatrix} \begin{Bmatrix}u_1 \\ \nu_1 \\ u_2 \\ \nu_2 \end{Bmatrix}$$<br/>
