@@ -125,10 +125,10 @@ $$(33) \ \ \    \begin{Bmatrix}f'_1x\\ f'_1y \\ f'_2x\\ f'_2y
 $$(34) \ \ \    [k'] = \frac{AE}{L}\begin{bmatrix} 1 & 0 & -1 & 0 \\ 0 & 0 & 0 & 0 \\ -1 & 0 & 1 & 0 \\  0 & 0 & 0 & 0  \end{bmatrix}$$<br/>
 
 <p style="text-align: justify;">Isolando a eq. 30 em função de {f}: </p>
-$$(35) \ \ \     {f} = [T]^-1[k'][T]{d} $$<br/>
+$$(35) \ \ \     {f} = [T]^{-1}[k'][T]{d} $$<br/>
 
 <p style="text-align: justify;">Nota-se devido às características da matriz [T] que sua inversa é também a matriz transposta: </p>
-$$(36) \ \ \     [T]^-1=[T]^T $$<br/>
+$$(36) \ \ \     [T]^{-1}=[T]^T $$<br/>
 
 <p style="text-align: justify;">Deste modo, a eq. 35 toma a seguinte forma: </p>
 $$(37) \ \ \     {f} = [T]^T[k'][T]{d} $$<br/>
