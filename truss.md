@@ -7,26 +7,38 @@
 
 $$ \ \ \    f_{1y} = 0, \ f_{2y} = 0, \ m_{1} = 0, m_{2} = 0 $$
 
-Para desenvolvimento da dedução da matriz de rigidez das treliças, os deslocamentos longitudinais serão representados por $$u_1 e u_2 $$. 
+Para desenvolvimento da dedução da matriz de rigidez das treliças, os deslocamentos longitudinais serão representados por $$u_1 e u_2 $$.<br/> 
 <p style="text-align: justify;">A deformação axial e tensão normal dos elementos são expressos pelas eq's. 1 e 2 respectivamente. </p>
 $$(1) \ \ \     \sigma_x= E\varepsilon_x$$<br/>
 
 $$(2) \ \ \     \varepsilon_x = \frac{du}{dx}$$<br/>
 
-Do equilíbrio de forças, se obtém eq. 3.
+<p style="text-align: justify;">Do equilíbrio de forças, se obtém eq. 3.</p>
 $$(3) \ \ \     A\sigma_x= T = constante$$<br/>
 
-A equação que governa o deslocamento será portanto:
+<p style="text-align: justify;">A equação que governa o deslocamento será portanto a eq. 4:</p>
 $$(4) \ \ \     \frac{d}{dx}(AE\frac{du}{dx})$$<br/>
 
 <p style="text-align: justify;">Para este tipo de elemento, com deslocamentos apenas axiais, a função aproximadora pode ser tomada como linear (eq. 5). </p>
 $$(5) \ \ \     u = a_1 + a_2x$$<br/>
 
-$$(6) \ \ \     u = (\frac{u_2-u_1}{L})x+u_1$$<br/>
+<p style="text-align: justify;">A função linear aproximadora toma a forma matricial expressa pela eq. 6.</p>
 
-$$(7) \ \ \     u = \begin{bmatrix} N_1 & N_2 \end{bmatrix}\begin{Bmatrix} u_1\\ u_2 \end{Bmatrix} $$<br/>
+$$(6) \ \ \     u = \begin{bmatrix}1 & x \end{bmatrix}\begin{Bmatrix}a_1 \\ a_2 \end{Bmatrix}$$<br/>
 
-As funções de forma são dadas por:
+<p style="text-align: justify;">Aplicando a equação de deslocamento para as condições de contorno do elemento, obtém-se as eq's. 7 e 8. </p>
+$$(7) \ \ \     u(0) = u_1 = a_1$$<br/>
+
+$$(8) \ \ \     u(L) = u_2 = a_2L + u_1$$<br/>
+
+Resolvendo as eq's. 7 e 8 em função de $$ a_1 e a_2$$ se obtém eq. 9.
+<p style="text-align: justify;"> </p>
+$$(9) \ \ \     u = (\frac{u_2-u_1}{L})x+u_1$$<br/>
+
+<p style="text-align: justify;">Que na forma matricial é representada pela eq. 10 </p>
+$$(10) \ \ \     u = \begin{bmatrix} N_1 & N_2 \end{bmatrix}\begin{Bmatrix} u_1\\ u_2 \end{Bmatrix} $$<br/>
+
+<p style="text-align: justify;">Sendo as funções de forma dadas por:</p>
 
 $$(8) \ \ \    N_1 = N_2 = \frac{x}{L}$$<br/>
 
