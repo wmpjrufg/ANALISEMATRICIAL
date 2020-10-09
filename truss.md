@@ -23,7 +23,7 @@ $$(4) \ \ \     \frac{d}{dx}(AE\frac{du}{dx})$$<br/>
 <p style="text-align: justify;">Para este tipo de elemento, com deslocamentos apenas axiais, a função aproximadora pode ser tomada como linear (eq. 5). </p>
 $$(5) \ \ \     u = a_1 + a_2x$$<br/>
 
-$$(6) \ \ \     u = (\frac{u_2\times\u_1}{L})x+u_1$$<br/>
+$$(6) \ \ \     u = (\frac{u_2\times{u_1}}{L})x+u_1$$<br/>
 
 $$(7) \ \ \     u = \begin{bmatrix} N_1 & N_2 \end{bmatrix}\begin{Bmatrix} u_1\\ u_2 \end{Bmatrix} $$<br/>
 
@@ -31,4 +31,9 @@ As funções de forma são dadas por:
 
 $$(8) \ \ \    N_1 = N_2 = \frac{x}{L}$$<br/>
 
+$$(9) \ \ \     \varepsilon_x = \frac{u_2\times{u_1}}{L}$$<br/>
+
+$$(10) \ \ \     T = AE\frac{u_2\times{u_1}}{L}$$<br/>
+
+$$(11) \ \ \     f_{1x} = f_{1x} = AE\frac{u_2\times{u_1}}{L} $$<br/>
 
