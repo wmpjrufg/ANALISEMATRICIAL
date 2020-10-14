@@ -45,7 +45,7 @@ Onde:
 $$(8) \ \ \     \delta_d^t\int_{0}^{V}B^tCBdV \ d = \delta_d^t\left ( \int_{0}^{V}N^tq \ dV + \int_{0}^{\Gamma }N^tp \ d\Gamma + f \right )$$
 
 <p style="text-align: justify;">Simplificando a eq. 8, pode-se agrupar os termos que se relacionam com a rigidez do elemento (eq. 9), vetor de forças nodais equivalentes às cargas de volume (eq. 10) e vetor de forças nodais equivalentes às cargas de superfície(eq. 11): </p>
-$$(9) \ \ \     \delta_d^t\int_{0}^{V}B^tCBdV$$<br/>
+$$(9) \ \ \     K = \int_{0}^{V}B^tCBdV$$<br/>
 
 $$(10) \ \ \     f_q = \int_{0}^{V}N^tq \ dV$$<br/>
 
