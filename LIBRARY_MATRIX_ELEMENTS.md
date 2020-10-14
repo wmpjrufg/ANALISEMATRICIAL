@@ -21,14 +21,14 @@ $$(3) \ \ \     \{\delta_U\} = [N]\{\delta_d\}$$
 Sendo:
 + $$ [N]$$ Funções de interpolação ou forma do elemento. 
 
-O vetor de deslocamentos nodais **d**  relaciona-se com as deformações no interior do elemento **$$\varepsilon$$** elemento **d** através da eq. 4.
+O vetor de deslocamentos nodais **d**  relaciona-se com as deformações no interior do elemento **$$\varepsilon$$** elemento através da eq. 4.
 <p style="text-align: justify;"></p>
 $$(4) \ \ \     \{\delta_\varepsilon \} = [B]\{\delta_d\}$$
 
 Sendo:
 + $$ [B]$$ Matriz de compatibilidade cinemática. 
 
-p style="text-align: justify;">No caso das grandezas reais, a relação expressa na eq. 3 e 4 tomam respectivamente as eq's. 5 e 6.</p>
+<p style="text-align: justify;">No caso das grandezas reais, a relação expressa na eq. 3 e 4 tomam respectivamente as eq's. 5 e 6.</p>
 $$(5) \ \ \     u = Nd$$
 
 $$(6) \ \ \     \varepsilon = Bd$$
