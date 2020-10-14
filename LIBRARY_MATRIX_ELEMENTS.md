@@ -29,9 +29,9 @@ Sendo:
 + $$ [B]$$ Matriz de compatibilidade cinemática. 
 
 <p style="text-align: justify;">No caso das grandezas reais, a relação expressa na eq. 3 e 4 tomam respectivamente as eq's. 5 e 6.</p>
-$$(5) \ \ \     u = Nd$$
+$$(5) \ \ \     u = Nd$$<br/>
 
-$$(6) \ \ \     \varepsilon = Bd$$
+$$(6) \ \ \     \varepsilon = Bd$$<br/>
 
 <p style="text-align: justify;">A relação entre tensão no interior dos elementos e deformação é expressa na eq. 7.</p>
 $$(7) \ \ \     \sigma = C\varepsilon$$
@@ -45,11 +45,11 @@ Onde:
 $$(8) \ \ \     \delta_d^t\int_{0}^{V}B^tCBdV \ d = \delta_d^t\left ( \int_{0}^{V}N^tq \ dV + \int_{0}^{\Gamma }N^tp \ d\Gamma + f \right )$$
 
 <p style="text-align: justify;">Simplificando a eq. 8, pode-se agrupar os termos que se relacionam com a rigidez do elemento (eq. 9), vetor de forças nodais equivalentes às cargas de volume (eq. 10) e vetor de forças nodais equivalentes às cargas de superfície(eq. 11): </p>
-$$(9) \ \ \     \delta_d^t\int_{0}^{V}B^tCBdV$$
+$$(9) \ \ \     \delta_d^t\int_{0}^{V}B^tCBdV$$<br/>
 
-$$(10) \ \ \     f_q = \int_{0}^{V}N^tq \ dV$$
+$$(10) \ \ \     f_q = \int_{0}^{V}N^tq \ dV$$<br/>
 
-$$(11) \ \ \     f_p = \int_{0}^{\Gamma }N^tp \ d\Gamma$$
+$$(11) \ \ \     f_p = \int_{0}^{\Gamma }N^tp \ d\Gamma$$<br/>
 
 <p style="text-align: justify;">De forma generalizada, a eq. 8 pode ser expressa pela eq. 12.</p>
 $$(12) \ \ \     [K]\{d\} = f_q + f_p + f$$
