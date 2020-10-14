@@ -10,17 +10,12 @@ $$(1) \ \ \     [\delta_U] = [\delta_W]$$
 $$(2) \ \ \     \int_{0}^{V}\{\delta_{\varepsilon}\}\{\sigma\}dV = \int_{0}^{V}\{\delta_U\}\{q\}dV + \int_{0}^{\Gamma }\{\delta_U\}\{p\}d\Gamma +\{\delta_d\}\{f\}$$
 
 Onde de acordo com Vaz (2011):
-+ $$ \delta_{\varepsilon} \ e \ \delta_d$$ São grandezas cinemáticas;
++ $$ \delta_{\varepsilon} \ e \ \delta_d$$ São grandezas cinemáticas e virtuais;
++ $$ \sigma\ e \ f$$ São grandezas estáticas e reais;
 
-\\
-\\
-\int_{0}^{V}\{\delta_U\}\{q\}dV \rightarrow \ Forca \ de \ Volume
-\\
-\\
-\int_{0}^{\Gamma }\{\delta_U\}\{p\}d\Gamma  \rightarrow \ Forca \ de \ superficie
-\\
-\\
-\{\delta_d\}\{f\} \rightarrow \ Forca \ pontual
+<p style="text-align: justify;">Entende-se virtual por potencial, podendo ou não ser real. </p>
+<p style="text-align: justify;"> O vetor de deslocamentos *d*  relaciona-se com os deslocamentos nodais do elemento </p>
+
 \\
 \\
 \{\delta_U\} = [N]\{\delta_d\}
