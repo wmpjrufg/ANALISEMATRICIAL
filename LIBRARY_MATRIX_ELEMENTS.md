@@ -16,10 +16,18 @@ Onde de acordo com Vaz (2011):
 <p style="text-align: justify;">Entende-se virtual por potencial, podendo ou não ser real. </p>
 O vetor de deslocamentos **u**  relaciona-se com os deslocamentos nodais do elemento **d** através da eq. 3.
 <p style="text-align: justify;"></p>
-$$(3) \ \ \     \{\delta_U\} = [N]\{\delta_d\}
+$$(3) \ \ \     \{\delta_U\} = [N]\{\delta_d\}$$
 
+Sendo:
++ $$ [N]$$ Funções de interpolação ou forma do elemento. ;
 
-\{\delta_\varepsilon \} = [B]\{\delta_d\}
+O vetor de deslocamentos nodais **d**  relaciona-se com as deformações no interior do elemento **$$\varepsilon$$** elemento **d** através da eq. 4.
+<p style="text-align: justify;"></p>
+$$(4) \ \ \     \{\delta_\varepsilon \} = [B]\{\delta_d\}$$
+
+Sendo:
++ $$ [B]$$ Matriz de compatibilidade cinemática. ;
+
 
 u = Nd
 \\
