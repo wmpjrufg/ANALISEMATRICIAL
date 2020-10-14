@@ -33,7 +33,7 @@ $$(5) \ \ \     u = Nd$$
 
 $$(6) \ \ \     \varepsilon = Bd$$
 
-p style="text-align: justify;">A relação entre tensão no interior dos elementos e deformação é expressa na eq. 7.</p>
+<p style="text-align: justify;">A relação entre tensão no interior dos elementos e deformação é expressa na eq. 7.</p>
 $$(7) \ \ \     \sigma = C\varepsilon$$
 
 Onde: 
@@ -41,36 +41,18 @@ Onde:
 + $$ \varepsilon$$ Deformação no interior dos elementos;
 + $$ [C]$$ Matriz constitutiva que depende das características mecânicas do material;
 
-p style="text-align: justify;">Substituindo as eq's. 3 a 7 na eq. 2, obtém-se a eq. 8: </p>
-$$(8) \ \ \     \delta_d^t\int_{0}^{V}B^tCBdVd = \delta_d^t\left ( \int_{0}^{V}N^tq \ dV + \int_{0}^{\Gamma }N^tp \ d\Gamma + f \right )$$
+<p style="text-align: justify;">Substituindo as eq's. 3 a 7 na eq. 2, obtém-se a eq. 8: </p>
+$$(8) \ \ \     \delta_d^t\int_{0}^{V}B^tCBdV \ d = \delta_d^t\left ( \int_{0}^{V}N^tq \ dV + \int_{0}^{\Gamma }N^tp \ d\Gamma + f \right )$$
 
+<p style="text-align: justify;">Simplificando a eq. 8, pode-se agrupar os termos que se relacionam com a rigidez do elemento (eq. 9), vetor de forças nodais equivalentes às cargas de volume (eq. 10) e vetor de forças nodais equivalentes às cargas de superfície(eq. 11): </p>
+$$(9) \ \ \     \delta_d^t\int_{0}^{V}B^tCBdV$$
 
+$$(10) \ \ \     f_q = \int_{0}^{V}N^tq \ dV$$
 
-[K]\{d\} = f_q + f_p + f
-\\
-\\
-K = \int_{0}^{V}B^tCBdVd
-\\
-\\
-f_q = \int_{0}^{V}N^tq \ dV
-\\
-\\
-f_p = \int_{0}^{\Gamma }N^tp \ d\Gamma
+$$(11) \ \ \     f_p = \int_{0}^{\Gamma }N^tp \ d\Gamma$$
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<p style="text-align: justify;">De forma generalizada, a eq. 8 pode ser expressa pela eq. 12.</p>
+$$(12) \ \ \     [K]\{d\} = f_q + f_p + f$$
 
 
 A seguir são listadas o desenvolvimento dos cálculos para determinação das matrizes de rigidez das seguintes estruturas:
