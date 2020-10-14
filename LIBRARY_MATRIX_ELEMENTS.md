@@ -14,7 +14,7 @@ Onde de acordo com Vaz (2011):
 + $$ \sigma\ e \ f$$ São grandezas estáticas e reais;
 
 <p style="text-align: justify;">Entende-se virtual por potencial, podendo ou não ser real. </p>
-O vetor de deslocamentos **u**  relaciona-se com os deslocamentos nodais do elemento **d** através da eq. 3.
+Para as grandezas virtuais, vetor de deslocamentos **u**  relaciona-se com os deslocamentos nodais do elemento **d** através da eq. 3.
 <p style="text-align: justify;"></p>
 $$(3) \ \ \     \{\delta_U\} = [N]\{\delta_d\}$$
 
@@ -28,8 +28,15 @@ $$(4) \ \ \     \{\delta_\varepsilon \} = [B]\{\delta_d\}$$
 Sendo:
 + $$ [B]$$ Matriz de compatibilidade cinemática. ;
 
+p style="text-align: justify;">No caso das grandezas reais, a relação expressa na eq. 3 e 4 tomam respectivamente as eq's. 5 e 6.</p>
+$$(5) \ \ \     u = Nd$$
 
-u = Nd
+$$(6) \ \ \     \varepsilon = Bd$$
+
+Sendo: 
++ $$ [C]$$ Matriz constitutiva. ;
+
+
 \\
 \\
 \varepsilon = Bd
