@@ -14,13 +14,10 @@ Onde de acordo com Vaz (2011):
 + $$ \sigma\ e \ f$$ São grandezas estáticas e reais;
 
 <p style="text-align: justify;">Entende-se virtual por potencial, podendo ou não ser real. </p>
-<p style="text-align: justify;"> O vetor de deslocamentos *d*  relaciona-se com os deslocamentos nodais do elemento </p>
+O vetor de deslocamentos **u**  relaciona-se com os deslocamentos nodais do elemento **d** através da eq. 3.
+<p style="text-align: justify;"></p>
+$$(3) \ \ \     \{\delta_U\} = [N]\{\delta_d\}
 
-\\
-\\
-\{\delta_U\} = [N]\{\delta_d\}
-\\
-\\
 
 \{\delta_\varepsilon \} = [B]\{\delta_d\}
 
