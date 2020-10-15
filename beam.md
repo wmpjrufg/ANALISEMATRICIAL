@@ -3,7 +3,7 @@
 
 # Matriz de rigidez Viga
  
-<p style="text-align: justify;">A seguinte matriz de rigidez é baseada na teoria de vigas de Euler-Bernoulli. Onde é considerado que as seções perpendiculares ao eixo longitudinal permanecem planas após a aplicação de cargas.</p>
+<p style="text-align: justify;">reeA seguinte matriz de rigidez é baseada na teoria de vigas de Euler-Bernoulli. Onde é considerado que as seções perpendiculares ao eixo longitudinal permanecem planas após a aplicação de cargas.</p>
 
 <p style="text-align: justify;">A função de deslocamento adotada será uma função cúbica (eq. 1), que apresenta boa representação do deslocamento em vigas.</p>
 $$(1) \ \ \   \nu(x)=a_{1}x^3+a_{2}x^2+a_{3}x+a_{4}$$
