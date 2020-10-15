@@ -4,29 +4,9 @@
 # Matriz de rigidez Viga
  
 <p style="text-align: justify;">A seguinte matriz de rigidez é baseada na teoria de vigas de Euler-Bernoulli. Onde é considerado que as seções perpendiculares ao eixo longitudinal permanecem planas após a aplicação de cargas.
-Sendo uma viga submetida a uma carga distribuída w(x), das equações de equilíbrio se obtém eq.1.</p>
-$$(1) \ \ \     \sum{F_y }= 0: V-(V+dV)-w(x)dx=0 \label{1}$$
 
-<p style="text-align: justify;">Simplificando a Eq. 1, obtém-se eq. 2 e 3.</p>
-$$(2) \ \ \      -wdx - dV = 0 \   or \ w=-\frac{dV}{dx}$$<br/>
-
-$$(3) \ \ \      \sum{M_2}=0: -Vdx+dM+w(x)dx\frac{dx}{2}=0 \ ou \ V=\frac{dM}{dx}$$<br/>
-
-<p style="text-align: justify;">A curvatura das vigas pode ser obtida por meio da eq. 4.</p>
-$$(4) \ \ \      \kappa = \frac{1}{\rho }=\frac{M}{EI}$$
-
-Equanto a curvatura para pequenas rotações $$\phi = \frac{d\nu}{dx}$$ é dada pela eq. 5.
-<p style="text-align: justify;"> </p>
-$$(5) \ \ \      \kappa = \frac{d^2v}{dx^2 }$$
-
-<p style="text-align: justify;">Substituindo as eq's. 2 e 3 na eq. 5:</p>
-$$(6) \ \ \      \frac{d^2}{dx^2}[EI\frac{d^2v}{dx^2}]=-w(x)$$
-
-<p style="text-align: justify;">Para um módulo de rigidez longitudinal (EI) constante, e com atuação de apenas forças e momentos, a eq. 6 se torna eq. 7.</p>
-$$(7) \ \ \      EI\frac{d^4v}{dx^4}$$
-
-<p style="text-align: justify;">A função de deslocamento adotada será uma função cúbica (eq. 8), que apresenta boa representação do deslocamento em vigas.</p>
-$$(8) \ \ \   \nu(x)=a_{1}x^3+a_{2}x^2+a_{3}x+a_{4}$$
+<p style="text-align: justify;">A função de deslocamento adotada será uma função cúbica (eq. 1), que apresenta boa representação do deslocamento em vigas.</p>
+$$(1) \ \ \   \nu(x)=a_{1}x^3+a_{2}x^2+a_{3}x+a_{4}$$
 
 Representando a eq. 8 em função dos graus de liberdade $$\nu_1, \phi_1, \nu_2, \phi_2$$ se obtém eq's. 9 a 12.
 <p style="text-align: justify;"> </p>
