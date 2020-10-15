@@ -3,7 +3,7 @@
 
 # Matriz de rigidez Viga
  
-<p style="text-align: justify;">A seguinte matriz de rigidez é baseada na teoria de vigas de Euler-Bernoulli. Onde é considerado que as seções perpendiculares ao eixo longitudinal permanecem planas após a aplicação de cargas.
+<p style="text-align: justify;">A seguinte matriz de rigidez é baseada na teoria de vigas de Euler-Bernoulli. Onde é considerado que as seções perpendiculares ao eixo longitudinal permanecem planas após a aplicação de cargas.</p>
 
 <p style="text-align: justify;">A função de deslocamento adotada será uma função cúbica (eq. 1), que apresenta boa representação do deslocamento em vigas.</p>
 $$(1) \ \ \   \nu(x)=a_{1}x^3+a_{2}x^2+a_{3}x+a_{4}$$
@@ -22,7 +22,7 @@ Resolvendo as eq's. 2 a 5 em função dos parâmetros de forma $$a_1 ... a_4$$ e
 <p style="text-align: justify;"> </p>
 $$(6) \ \ \        \nu=\frac{2}{L^3}(\nu_{1}-\nu_{2})+\frac{1}{L^2}(\phi_{1}-\phi_{2})x^3-\frac{3}{L^2}(\nu_{1}-\nu_{2})-\frac{1}{L}(2\phi_{1}-\phi_{2})x^2+\phi_1x+\nu_1$$
 
-Por meio da relação expressa na [eq. 6 da dedução geral do MEF](https://wmpjrufg.github.io/ANALISEMATRICIAL/LIBRARY_MATRIX_ELEMENTS.html) é possível obter as funções de forma $$N_1 ... N_4$$ para o elemento viga (eq's. 7 a 10).
+Por meio da relação expressa na [eq. 5 da dedução geral do MEF](https://wmpjrufg.github.io/ANALISEMATRICIAL/LIBRARY_MATRIX_ELEMENTS.html) é possível obter as funções de forma $$N_1 ... N_4$$ para o elemento viga (eq's. 7 a 10).
 <p style="text-align: justify;"> </p>
 $$(16) \ \ \  [N*=[N_1 \ N_2 \ N_3 \ N_4* $$<br/>
 
