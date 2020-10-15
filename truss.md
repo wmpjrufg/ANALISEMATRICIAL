@@ -60,9 +60,9 @@ $$(15) \ \ \     K = \int_{0}^{L}\begin{bmatrix} \frac{-1}{L} & \frac{1}{L}\end{
 ¹ Sendo a área constante, e a variação ocorrendo apenas no eixo x: $$dV = A \ dx$$ 
 
 <p style="text-align: justify;">Resolvendo a integral da eq. 15, obtém-se a matriz de rigidez expressa pela eq. 16.</p>
-$$(16) \ \ \    [k] = \frac{AE}{L}\begin{bmatrix} 1 & -1 \\ -1 & 1 \end{bmatrix}$$<br/>
+$$(16) \ \ \    [K] = \frac{AE}{L}\begin{bmatrix} 1 & -1 \\ -1 & 1 \end{bmatrix}$$<br/>
 
-Sendo $${f} = [k]{d}$$:
+Sendo $${f} = [K]{d}$$:
 <p style="text-align: justify;"></p> 
 $$(17) \ \ \    \begin{Bmatrix}f_{1x}\\f_2x
 \end{Bmatrix} = \frac{AE}{L}\begin{bmatrix} 1 & -1 \\ -1 & 1 \end{bmatrix} \begin{Bmatrix}u_1 \\ u_2 \end{Bmatrix}$$<br/>
