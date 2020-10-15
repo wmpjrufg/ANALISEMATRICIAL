@@ -1,9 +1,9 @@
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 # Matriz de rigidez Pórtico plano
 
-<p style="text-align: justify;">Pórticos são elementos estruturais arbitrariamente orientados no plano, em que sua modelagem físico-matemática são considerados rotações, translações verticais e translações horizontais.</p>
-
+<p style="text-align: justify;">reaaPórticos são elementos estruturais arbitrariamente orientados no plano, em que sua modelagem físico-matemática são considerados rotações, translações verticais e translações horizontais.</p>
 
 A matriz de compatibilidade cinemática **B** para o pórtico será a combinação das matrizes **B** da [viga (eq. 15)](https://wmpjrufg.github.io/ANALISEMATRICIAL/beam.html) e da [treliça (eq. 14)](https://wmpjrufg.github.io/ANALISEMATRICIAL/truss.html):
 
