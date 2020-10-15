@@ -22,26 +22,34 @@ Resolvendo as eq's. 2 a 5 em função dos parâmetros de forma $$a_1 ... a_4$$ e
 <p style="text-align: justify;"> </p>
 $$(6) \ \ \        \nu=\frac{2}{L^3}(\nu_{1}-\nu_{2})+\frac{1}{L^2}(\phi_{1}-\phi_{2})x^3-\frac{3}{L^2}(\nu_{1}-\nu_{2})-\frac{1}{L}(2\phi_{1}-\phi_{2})x^2+\phi_1x+\nu_1$$
 
-Por meio da relação expressa na [eq. 5 da dedução geral do MEF](https://wmpjrufg.github.io/ANALISEMATRICIAL/LIBRARY_MATRIX_ELEMENTS.html) é possível obter as funções de forma $$N_1 ... N_4$$ para o elemento viga (eq's. 7 a 10).
+Por meio da relação expressa na [eq. 5 da dedução geral do MEF](https://wmpjrufg.github.io/ANALISEMATRICIAL/LIBRARY_MATRIX_ELEMENTS.html) é possível obter as funções de forma $$N_1 ... N_4$$ para o elemento viga (eq's. 8 a 11).
 <p style="text-align: justify;"> </p>
-$$(16) \ \ \  [N*=[N_1 \ N_2 \ N_3 \ N_4* $$<br/>
+$$(7) \ \ \  [N*=[N_1 \ N_2 \ N_3 \ N_4* $$<br/>
 
-$$(17) \ \ \  N_1 = \frac{1}{L^3}(2x^3-3x^2L+L^3)$$<br/>
+$$(8) \ \ \  N_1 = \frac{1}{L^3}(2x^3-3x^2L+L^3)$$<br/>
 
-$$(18) \ \ \  N_2 = \frac{1}{L^3}(x^3L-2x^2L^2+xL^3)$$<br/>
+$$(9) \ \ \  N_2 = \frac{1}{L^3}(x^3L-2x^2L^2+xL^3)$$<br/>
 
-$$(19) \ \ \  N_3 = \frac{1}{L^3}(-2x^3+3x^2L)$$<br/>
+$$(10) \ \ \  N_3 = \frac{1}{L^3}(-2x^3+3x^2L)$$<br/>
 
-$$(20) \ \ \  N_4 = \frac{1}{L^3}(x^3L-x^2L^2)$$<br/>
+$$(11) \ \ \  N_4 = \frac{1}{L^3}(x^3L-x^2L^2)$$<br/>
 
-Sendo a relação entre deformações e deslocamento representado pela eq. 21 e entre o deslocamento axial (u) e transversal $$(\nu)$$ expresso pela eq. 22.
+Sendo a relação entre deformações e deslocamento representado pela eq. 12 e entre o deslocamento axial **(u)** e transversal **$$(\nu)$$** expresso pela eq. 13.
 <p style="text-align: justify;"> </p>
-$$(21) \ \ \  \varepsilon_x(x,y) = \frac{du}{dx}\\$$<br/>
+$$(12) \ \ \  \varepsilon_x(x,y) = \frac{du}{dx}\\$$<br/>
 
-$$(22) \ \ \  u = -y\frac{d\nu}{dx}\\$$<br/>
+$$(13) \ \ \  u = -y\frac{d\nu}{dx}\\$$<br/>
 
-<p style="text-align: justify;">Substituindo a eq. 22 em eq. 21.</p>
-$$(23) \ \ \  \varepsilon_x(x,y) = -y\frac{d^2\nu}{dx^2}\\$$
+Sendo:
++ **y** a distância da linha neutra.
+
+<p style="text-align: justify;">Substituindo a eq. 13 em eq. 12.</p>
+$$(14) \ \ \  \varepsilon_x(x,y) = -y\frac{d^2\nu}{dx^2}\\$$
+
+Recorrendo a relação expressa na [eq. 6 da dedução geral do MEF](https://wmpjrufg.github.io/ANALISEMATRICIAL/LIBRARY_MATRIX_ELEMENTS.html)  possível obter a matriz **B**:
+<p style="text-align: justify;"> </p>
+$$(15) \ \ \  [B] = \frac{-y}{L^3}\left \{ \begin{matrix} (12x - 6L) &  L(6x - 4L) & -(12x - 6L) & L(6x - 2L)\end{matrix}\right \}$$
+
 
 <p style="text-align: justify;">A partir da lei de Hooke (eq 23), substituindo a eq. 4 na eq. 23, é obtido a formulação para tensões em vigas (eq. 24).</p>
 $$(24) \ \ \  \sigma_x = \frac{-My}{I}\\$$
