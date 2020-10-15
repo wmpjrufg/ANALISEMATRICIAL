@@ -6,8 +6,8 @@
 
 
 A matriz de compatibilidade cinemática **B** para o pórtico será a combinação das matrizes **B** da [viga (eq. 15)](https://wmpjrufg.github.io/ANALISEMATRICIAL/beam.html) e da [treliça (eq. 14)](https://wmpjrufg.github.io/ANALISEMATRICIAL/truss.html):
-<p style="text-align: justify;"> </p>
 
+<p style="text-align: justify;"> </p>
 $$(1) \ \ \  [B] = \left \{ \begin{matrix} \frac{-1}{L} & \frac{-y}{L^3}(12x - 6L) &  \frac{-y}{L^2}(6x - 4L) & \frac{-1}{L} & -\frac{-y}{L^3}(12x - 6L) & \frac{-y}{L^2}(6x - 2L)\end{matrix}\right \}$$<br/>
 
 A matriz de constituição **C** equivalente ao módulo de elasticidade **E**.
