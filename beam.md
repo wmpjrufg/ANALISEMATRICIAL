@@ -53,14 +53,26 @@ $$(15) \ \ \  [B] = \frac{-y}{L^3}\left \{ \begin{matrix} (12x - 6L) &  L(6x - 4
 A matriz de constituição **C** equivalente ao módulo de elasticidade **E**.
 Substituindo a eq. 15  e **C** na [eq. 7 da dedução geral do MEF](https://wmpjrufg.github.io/ANALISEMATRICIAL/LIBRARY_MATRIX_ELEMENTS.html) é possível obter a matriz de rigidez **K**:
 <p style="text-align: justify;"> </p>
-$$(15) \ \ \     K = \int_{0}^{L}\frac{-y}{L^3}\left \{ \begin{matrix} (12x - 6L) &  L(6x - 4L) & -(12x - 6L) & L(6x - 2L)\end{matrix}\right \}^t \ E \ \frac{-y}{L^3}\left \{ \begin{matrix} (12x - 6L) &  L(6x - 4L) & -(12x - 6L) & L(6x - 2L)\end{matrix}\right \} \ dx \ ^2 \ ^3$$<br/>
+$$(15) \ \ \     K = \int_{0}^{L}\frac{-y}{L^3}\left \{ \begin{matrix} (12x - 6L) &  L(6x - 4L) & -(12x - 6L) & L(6x - 2L)\end{matrix}\right \}^t \\ E \ \frac{-y}{L^3}\left \{ \begin{matrix} (12x - 6L) &  L(6x - 4L) & -(12x - 6L) & L(6x - 2L)\end{matrix}\right \} \ dx \ ^2 \ ^3$$<br/>
 
 $$^2 \ \  I_z = \int\int_{A}^{}y^2 \ dA$$<br/>
 
 $$^3$$ Sendo a área constante, e a variação ocorrendo apenas no eixo x: $$dV = A \ dx$$<br/>
 
-<p style="text-align: justify;">Por meio das eq's. 27 a 30 é possível obter a forma matricial dos deslocamentos globais (eq. 31).</p>
-$$(31) \ \ \  
+
+<p style="text-align: justify;">Resolvendo a integral da eq. 15, obtém-se a matriz de rigidez expressa pela eq. 16.</p>
+$$(16) \ \ \  
+[k*=\frac{EI}{L^3}\begin{bmatrix}
+12 & 6L&-12&6L\\
+6L&4L^2&-6L&2L^2\\
+-12 & -6L&12&-6L\\
+6L&2L^2&-6L&4L^2\\
+\end{bmatrix}
+$$
+
+Sendo $${f} = [K]{d}$$:
+<p style="text-align: justify;"></p>
+$$(17) \ \ \  
 \begin{Bmatrix}
 f_{1y}\\
 m_1\\
@@ -79,13 +91,4 @@ m_1\\
 \end{Bmatrix}
 $$
 
-<p style="text-align: justify;">Onde a matriz de rigidez do elemento viga é expresso pela eq. 32.</p>
-$$32) \ \ \  
-[k*=\frac{EI}{L^3}\begin{bmatrix}
-12 & 6L&-12&6L\\
-6L&4L^2&-6L&2L^2\\
--12 & -6L&12&-6L\\
-6L&2L^2&-6L&4L^2\\
-\end{bmatrix}
-$$
      
