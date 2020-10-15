@@ -48,6 +48,10 @@ $$(12) \ \ \    N_2 = \frac{x}{L}$$<br/>
 <p style="text-align: justify;">Substituindo a eq. 9 na eq. 2 se obtém eq. 13 que expressa as deformações do elemento.</p>
 $$(13) \ \ \     \varepsilon_x = \frac{u_2-u_1}{L}$$<br/>
 
+Substituindo a eq. 13 na [eq. 6 da dedução geral do MEF](https://wmpjrufg.github.io/ANALISEMATRICIAL/LIBRARY_MATRIX_ELEMENTS.html) é possível obter a matriz **B**:
+<p style="text-align: justify;"> </p>
+$$(14) \ \ \     [B] = \begin{bmatrix} \frac{-1}{L} & \frac{1}{L}\end{bmatrix}$$<br/>
+
 <p style="text-align: justify;">Substituindo a eq. 9 na eq. 3 se obtém eq. 14 que relaciona os esforços normais com os deslocamentos.</p>
 $$(14) \ \ \     T = AE\frac{u_2-u_1}{L}$$<br/>
 
