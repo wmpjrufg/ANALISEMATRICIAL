@@ -1,8 +1,7 @@
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> 
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     
-# Matriz de rigidez Treliça
-### Paralela ao eixo x
+# Matriz de rigidez barra plana
 
 <p style="text-align: justify;">As treliças são elementos estruturais cujo únicos esforços atuantes são aqueles normais à seção transversal. Isto é possível devido ao fato de que as cargas são aplicadas nos nós, que contém uniões denominadas rótulas, onde é permitido uma maior flexibilidade ao elemento sem a transmissão de esforços de flexão. Deste modo:</p>
 
@@ -67,7 +66,7 @@ Sendo $${f} = [K]{d}$$:
 $$(17) \ \ \    \begin{Bmatrix}f_{1x}\\f_2x
 \end{Bmatrix} = \frac{AE}{L}\begin{bmatrix} 1 & -1 \\ -1 & 1 \end{bmatrix} \begin{Bmatrix}u_1 \\ u_2 \end{Bmatrix}$$<br/>
 
-### Arbitrariamente orientada no plano x-y
+# Matriz de rigidez Treliça arbitrariamente orientada no plano x-y
 
 <p style="text-align: justify;"> Para a barra arbitrariamente orientada no plano global x-y, a matriz de forças pode ser expressa pela eq. 20, ou eq. 21 na forma simplificada. </p> 
 
