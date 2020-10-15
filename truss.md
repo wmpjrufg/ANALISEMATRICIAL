@@ -52,24 +52,20 @@ Substituindo a eq. 13 na [eq. 6 da dedução geral do MEF](https://wmpjrufg.gith
 <p style="text-align: justify;"> </p>
 $$(14) \ \ \     [B] = \begin{bmatrix} \frac{-1}{L} & \frac{1}{L}\end{bmatrix}$$<br/>
 
-<p style="text-align: justify;">Substituindo a eq. 9 na eq. 3 se obtém eq. 14 que relaciona os esforços normais com os deslocamentos.</p>
-$$(14) \ \ \     T = AE\frac{u_2-u_1}{L}$$<br/>
+A matriz de constituição **C** equivalente ao módulo de elasticidade **E**.
+Substituindo a eq. 14  e **C** na [eq. 7 da dedução geral do MEF](https://wmpjrufg.github.io/ANALISEMATRICIAL/LIBRARY_MATRIX_ELEMENTS.html) é possível obter a matriz de rigidez **K**:
+<p style="text-align: justify;"> </p>
+$$(15) \ \ \     K = \int_{0}^{L}\begin{bmatrix} \frac{-1}{L} & \frac{1}{L}\end{bmatrix}^t \ E \ \begin{bmatrix} \frac{-1}{L} & \frac{1}{L}\end{bmatrix} \ dx¹$$<br/>
 
-<p style="text-align: justify;">Aplicando-se o método das seções no elemento, se obtém as seguintes forças axiais.</p> 
-$$(15) \ \ \     f_{1x} = -T \ e \ f_{2x} = T $$<br/>
+¹ Sendo a área constante, e a variação ocorrendo apenas no eixo x: $$dV = A \ dx$$ 
 
-$$(16) \ \ \     f_{1x} = -AE\frac{u_2 - u_1}{L} $$<br/>
+<p style="text-align: justify;">Resolvendo a integral da eq. 15, obtém-se a matriz de rigidez expressa pela eq. 16.</p>
+$$(16) \ \ \    [k] = \frac{AE}{L}\begin{bmatrix} 1 & -1 \\ -1 & 1 \end{bmatrix}$$<br/>
 
-$$(17) \ \ \     f_{2x} = AE\frac{u_2 - u_1}{L} $$<br/>
-
-<p style="text-align: justify;">Expressando as eq's. 16 e 17 na forma matricial (eq. 18):
-</p> 
-$$(18) \ \ \    \begin{Bmatrix}f_{1x}\\f_2x
+Sendo $${f} = [k]{d}$$:
+<p style="text-align: justify;"></p> 
+$$(17) \ \ \    \begin{Bmatrix}f_{1x}\\f_2x
 \end{Bmatrix} = \frac{AE}{L}\begin{bmatrix} 1 & -1 \\ -1 & 1 \end{bmatrix} \begin{Bmatrix}u_1 \\ u_2 \end{Bmatrix}$$<br/>
-
-Sendo $${f} = [k]{d}$$, a matriz de rigidez será (eq. 19):
-<p style="text-align: justify;"> </p> 
-$$(19) \ \ \    [k] = \frac{AE}{L}\begin{bmatrix} 1 & -1 \\ -1 & 1 \end{bmatrix}$$<br/>
 
 ### Arbitrariamente orientada no plano x-y
 
