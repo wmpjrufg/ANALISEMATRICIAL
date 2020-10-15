@@ -50,24 +50,14 @@ Recorrendo a relação expressa na [eq. 6 da dedução geral do MEF](https://wmp
 <p style="text-align: justify;"> </p>
 $$(15) \ \ \  [B] = \frac{-y}{L^3}\left \{ \begin{matrix} (12x - 6L) &  L(6x - 4L) & -(12x - 6L) & L(6x - 2L)\end{matrix}\right \}$$
 
-
-<p style="text-align: justify;">A partir da lei de Hooke (eq 23), substituindo a eq. 4 na eq. 23, é obtido a formulação para tensões em vigas (eq. 24).</p>
-$$(24) \ \ \  \sigma_x = \frac{-My}{I}\\$$
-
-<p style="text-align: justify;">A relação do momento fletor e esforço cortante com os deslocamentos pode ser expressa pelas eq's. 25 e 26.</p>
-$$(25) \ \ \  m(x)=EI\frac{d^2\nu}{dx^2}\\$$<br/>
-
-$$(26) \ \ \  V = EI\frac{d^3\nu}{dx^3}\\$$<br/>
-
-<p style="text-align: justify;">Substituindo a equação de deslocamento eq. 13 nas eq's. 25 e 26, obtém-se os momentos fletores e esforços cortantes nos nós da viga (eq's. 27 a 30).</p>
+A matriz de constituição **C** equivalente ao módulo de elasticidade **E**.
+Substituindo a eq. 15  e **C** na [eq. 7 da dedução geral do MEF](https://wmpjrufg.github.io/ANALISEMATRICIAL/LIBRARY_MATRIX_ELEMENTS.html) é possível obter a matriz de rigidez **K**:
 <p style="text-align: justify;"> </p>
-$$(27) \ \ \  f_{1y}=V=EI\frac{d^3\nu(0)}{dx^3}=\frac{EI}{L^3}(12\nu_1+6L\phi_1-12\nu_2+6L\phi_2)$$<br/>
+$$(15) \ \ \     K = \int_{0}^{L}\frac{-y}{L^3}\left \{ \begin{matrix} (12x - 6L) &  L(6x - 4L) & -(12x - 6L) & L(6x - 2L)\end{matrix}\right \}^t \ E \ \frac{-y}{L^3}\left \{ \begin{matrix} (12x - 6L) &  L(6x - 4L) & -(12x - 6L) & L(6x - 2L)\end{matrix}\right \} \ dx \ ^2 \ ^3$$<br/>
 
-$$(28) \ \ \  m_{1}=-m=-EI\frac{d^2\nu(0)}{dx^2}=\frac{EI}{L^3}(6L\nu_1+4L^2\phi_1-6L\nu_2+2L^2\phi_2)$$<br/>
+$$^2 \ \  I_z = \int\int_{A}^{}y^2 \ dA$$<br/>
 
-$$(29) \ \ \  f_{2y}=V=EI\frac{d^3\nu(L)}{dx^3}=\frac{EI}{L^3}(-12\nu_1-6L\phi_1+12\nu_2-6L\phi_2)$$<br/>
-
-$$(30) \ \ \  m_{2}=-m=-EI\frac{d^2\nu(L)}{dx^2}=\frac{EI}{L^3}(6L\nu_1+2L^2\phi_1-6L\nu_2+4L^2\phi_2)$$<br/>
+$$^3$$ Sendo a área constante, e a variação ocorrendo apenas no eixo x: $$dV = A \ dx$$<br/>
 
 <p style="text-align: justify;">Por meio das eq's. 27 a 30 é possível obter a forma matricial dos deslocamentos globais (eq. 31).</p>
 $$(31) \ \ \  
