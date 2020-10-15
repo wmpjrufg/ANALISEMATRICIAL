@@ -62,7 +62,7 @@ $$^3$$ Sendo a área constante, e a variação ocorrendo apenas no eixo x: $$dV 
 
 <p style="text-align: justify;">Resolvendo a integral da eq. 15, obtém-se a matriz de rigidez expressa pela eq. 16.</p>
 $$(16) \ \ \  
-[k*=\frac{EI}{L^3}\begin{bmatrix}
+[K]=\frac{EI}{L^3}\begin{bmatrix}
 12 & 6L&-12&6L\\
 6L&4L^2&-6L&2L^2\\
 -12 & -6L&12&-6L\\
