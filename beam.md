@@ -8,31 +8,22 @@
 <p style="text-align: justify;">A função de deslocamento adotada será uma função cúbica (eq. 1), que apresenta boa representação do deslocamento em vigas.</p>
 $$(1) \ \ \   \nu(x)=a_{1}x^3+a_{2}x^2+a_{3}x+a_{4}$$
 
-Representando a eq. 8 em função dos graus de liberdade $$\nu_1, \phi_1, \nu_2, \phi_2$$ se obtém eq's. 9 a 12.
+Representando a eq. 8 em função dos graus de liberdade $$\nu_1, \phi_1, \nu_2, \phi_2$$ se obtém eq's. 2 a 5.
 <p style="text-align: justify;"> </p>
-$$(9) \ \ \      \nu(0)=v_{1}=a_{4}$$<br/>
+$$(2) \ \ \      \nu(0)=v_{1}=a_{4}$$<br/>
 
-$$(10) \ \ \      \frac{d\nu(0)}{dx} = \phi_{1}=a_{3}$$<br/>
+$$(3) \ \ \      \frac{d\nu(0)}{dx} = \phi_{1}=a_{3}$$<br/>
 
-$$(11) \ \ \      \nu(L)=v_{2}=a_{1}L^3+a_{2}L^2+a_{3}L+a_{4}$$<br/>
+$$(4) \ \ \      \nu(L)=v_{2}=a_{1}L^3+a_{2}L^2+a_{3}L+a_{4}$$<br/>
 
-$$(12) \ \ \      \frac{d\nu(L)}{dx} = \phi_{2}= 3a_{1}L^2+2a_{1}L+a_{3} $$<br/>
+$$(5) \ \ \      \frac{d\nu(L)}{dx} = \phi_{2}= 3a_{1}L^2+2a_{1}L+a_{3} $$<br/>
 
-Resolvendo as eq's. 9 a 12 em função dos parâmetros de forma $$a_1 ... a_4$$ e substituindo na eq. 8:
+Resolvendo as eq's. 2 a 5 em função dos parâmetros de forma $$a_1 ... a_4$$ e substituindo na eq. 1:
 <p style="text-align: justify;"> </p>
-$$(13) \ \ \        \nu=\frac{2}{L^3}(\nu_{1}-\nu_{2})+\frac{1}{L^2}(\phi_{1}-\phi_{2})x^3-\frac{3}{L^2}(\nu_{1}-\nu_{2})-\frac{1}{L}(2\phi_{1}-\phi_{2})x^2+\phi_1x+\nu_1$$
+$$(6) \ \ \        \nu=\frac{2}{L^3}(\nu_{1}-\nu_{2})+\frac{1}{L^2}(\phi_{1}-\phi_{2})x^3-\frac{3}{L^2}(\nu_{1}-\nu_{2})-\frac{1}{L}(2\phi_{1}-\phi_{2})x^2+\phi_1x+\nu_1$$
 
-Transformando as expressões para as formas matriciais descritas nas eq's 14 a 16, é possível obter as funções de forma $$N_1 ... N_4$$ para o elemento viga eq's. 17 a 20.
+Por meio da relação expressa na [eq. 6 da dedução geral do MEF](https://wmpjrufg.github.io/ANALISEMATRICIAL/LIBRARY_MATRIX_ELEMENTS.html) é possível obter as funções de forma $$N_1 ... N_4$$ para o elemento viga (eq's. 7 a 10).
 <p style="text-align: justify;"> </p>
-$$(14) \ \ \        \nu = [N*\{d\}$$<br/>
-$$(15) \ \ \        
-\{d\}=\begin{Bmatrix}
-\nu_1\\
-\phi_1\\
-\nu_2\\
-\phi_2\\
-\end{Bmatrix}
-$$<br/>
 $$(16) \ \ \  [N*=[N_1 \ N_2 \ N_3 \ N_4* $$<br/>
 
 $$(17) \ \ \  N_1 = \frac{1}{L^3}(2x^3-3x^2L+L^3)$$<br/>
