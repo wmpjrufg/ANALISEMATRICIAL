@@ -40,8 +40,9 @@ $$(6) \ \ \     T =\begin{bmatrix}-S & C & 0& 0& 0& 0\\ 0 & 0 & 1& 0& 0& 0\\ 0 &
 <p style="text-align: justify;"> Sendo a rigidez para um elemento orientado arbitrariamente no plano determinado pela eq. 7:</p>
 $$(7) \ \ \     [k] =[T^{T}][k'][T]$$<br/>
 
-<p style="text-align: justify;">Em um primeiro momento, a dedução da matriz de rigidez será realizada considerando a atuação de apenas rotação e esforços cisalhantes, deste modo, pode-se utilizar a matriz de rigidez de vigas para determinação da matriz de rigidez dos pórticos.
-Substituindo a eq. 2 e eq. 32 - viga¹ na eq. 3 se obtém a matriz de rigidez global dos elementos (eq. 8).</p>
+Em um primeiro momento, a dedução da matriz de rigidez será realizada considerando a atuação de apenas rotação e esforços cisalhantes, deste modo, pode-se utilizar a matriz de rigidez de vigas para determinação da matriz de rigidez dos pórticos.
+Substituindo a eq. 2 e [eq. 32 - viga](https://wmpjrufg.github.io/ANALISEMATRICIAL/beam.html) na eq. 3 se obtém a matriz de rigidez global dos elementos (eq. 8).
+<p style="text-align: justify;"> </p>
 $$(8) \ \ \     k =\frac{EI}{L^3}\begin{bmatrix} 12S^2&-12SC&-6LS&-12S^2&12SC&-6LS\\&12C^2&6LC&12SC&-12C^2&6LC\\&&-4L^2&6LS&-6LC&2L^2\\&&&12C^2&-12SC&6LS\\&&&&12C^2&-6LC\\Simetrico&&&&&4L^2\\\end{bmatrix}$$<br/>
 
 <p style="text-align: justify;">Da mesma forma, inserindo os efeitos axiais da direção x', na relação entre deslocamentos locais e globais (eq. 5), resulta-se a eq. 7.</p>
