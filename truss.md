@@ -41,7 +41,7 @@ $$(10) \ \ \     u = \begin{bmatrix} N_1 & N_2 \end{bmatrix}\begin{Bmatrix} u_1\
 
 <p style="text-align: justify;">Sendo as funções de forma dadas por:</p>
 
-$$(11) \ \ \    N_1 = -\frac{x}{L}$$<br/>
+$$(11) \ \ \    N_1 = 1-\frac{x}{L}$$<br/>
 
 $$(12) \ \ \    N_2 = \frac{x}{L}$$<br/>
 
